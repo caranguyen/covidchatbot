@@ -1,0 +1,173 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: pfizer
+  examples: |
+    - what is the rate of pfizer?
+    - how effective is pfizer
+    - is it safe to take shot from pfizer?
+
+- intent: moderna
+  examples: |
+    - what is the rate of moderna
+    - how credible is moderna?
+    - is it safe to take shot from moderna?
+
+- intent: jj
+  examples: |
+    - what is the rate of janssen?
+    - how good is janssen?
+    - is it safe to take shot from johnson johnson
+
+- intent: covid_demographic
+  examples: |
+    - how dangerous is covid 19
+    - is covid real?
+    - can black people get covid?
+
+- intent: should_not_vaccine
+  examples: |
+    - who should not get the covid vaccine?
+    - can I get vaccine if I have high blood pressure?
+    - I am under 16, should I take covid shot?
+    - I have chronic conditions, can I get shot?
+
+- intent: dose_pfizer
+  examples: |
+    - how many dose for the pfizer vaccine do i need?
+    - how long does it take for me to be immuted from covid 19 after pfizer?
+    - what is the time between pfizer shots?
+    - how long i have to wait for the second pfizer dose?
+
+- intent: dose_moderna
+  examples: |
+    - how many dose for the moderna vaccine?
+    - how long does it take for me to fully vaccinated after moderna?
+    - what is the time between moderna's shots?
+    - how long i have to wait for the second dose for moderna?
+
+- intent: dose_jj
+  examples: |
+    - how many dose for the johnson johnson vaccine do i need?
+    - how long does it take for me to be immuted from covid 19 after janssen?
+    - what is the time between johnson's shots?
+
+- intent: after_care
+  examples: |
+    - do i need to do anything after the shot?
+    - is there anything i need to know after been vaccinated?
+    - what do i do after the vaccine?
+    - what if i get allergic reaction after a few days?
+    - i got the shots, then what?
+    - will i still get covid after the shots?
