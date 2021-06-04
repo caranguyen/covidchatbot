@@ -1,0 +1,70 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - pfizer
+  - moderna
+  - jj
+  - covid_demographic
+  - should_not_vaccine
+  - dose_pfizer
+  - dose_moderna
+  - dose_jj
+  - after_care
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_pfizer:
+  - text: "95% effective rate for people 12 years and older"
+
+  utter_moderna:
+  - text: "94.1% effective rate for people 18 years and older"
+
+  utter_jj:
+  - text: "66.3% effective rate for people 18 years and older"
+
+  utter_covid_demographic:
+  - text: "half of american from all races has contracted covid-19, and x number of people have died due to covid-19..."
+
+  utter_should_not_vaccine: 
+  - text: "if you are allergic to any ingredient in the vaccine such as ..."
+
+  utter_dose_pfizer:
+  - text: "2 shots given 3 weeks apart. You are fully vaccined 2 weeks after the second dose."
+
+  utter_dose_moderna:
+  - text: "2 shots given 4 weeks apart. You are fully vaccined 2 weeks after the second dose."
+
+  utter_dose_jj:
+  - text: "1 shot. You are fully vaccined 2 weeks after the shot."
+
+  utter_after_care:
+  - text: "You might have side effects. Call primary doctor if side effect remains after few days. If it's an emergency, call 911."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
