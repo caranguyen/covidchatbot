@@ -9,13 +9,14 @@ Optional to wrap the project in virtualenv:
 C:\> .\venv\Scripts\activate
 </code></pre>
 
-To install rasa open source:
+To install Rasa:
 <pre><code>pip3 install rasa</code></pre>
+Then, download all files above
 
-To run the current model:
+Next, to run the current model:
 <pre><code>rasa shell</code></pre>
 
-The shell will prompt user input. Currently, here are the topic chat bot can answer
+The shell will prompt user input. Currently, here are the topics that chat bot can answer
 - success rate of 3 main vaccine providers
 - number of and time between dose of 3 main vaccine providers
 - covid demographic
