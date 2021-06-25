@@ -1,130 +1,584 @@
 version: "2.0"
 
 nlu:
-- intent: greet
+#checkpoint 4
+- intent: Vaccine_ingredients_moderna
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - Moderna vaccine ingredients
+    - modena vaccine ingredient
 
-- intent: goodbye
+- intent: Vaccine_ingredients_pfizer
   examples: |
-    - good afternoon
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - pfizer vaccine ingredients
+    - pfiezer vaccine ingredient
 
-- intent: affirm
+- intent: Vaccine_ingredients_janssen
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - Janssen vaccine ingredients
+    - Jassen vaccine ingredient
+    - Johnson vaccine ingredient
 
-- intent: deny
+
+#checkpoint 3
+# lookup tables
+- synonym: covid
   examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - covid-19
+    - covid
+    - corona
+    - corona virus
+    - coronavirus
+    - virus
 
-- intent: mood_great
+- synonym: janssen
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - janssen
+    - J & J
+    - j&j
+    - J&J
+    - johnson
+    - johnson johnson
+    - johnson n johnson
+    - johnson and johnson
+    - j n j
+    - j and j
 
-- intent: mood_unhappy
+- synonym: grandmother
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - grandma
+    - grandmom
+    - granddy 
+    - granny
+    - grannie
 
-- intent: bot_challenge
+- synonym: grandfather
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - grandpa
+    - grandad
 
-- intent: bot_challenge
+- synonym: male
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - man
+    - guy
+    - dude
+    - boy
 
-- intent: bot_challenge
+- synonym: female
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - girl
+    - woman
+    - gal
 
-- intent: bot_challenge
+- synonym: vaccine
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - vaccination
+    - vaccinate
+    - vaccinated
 
-- intent: pfizer
+- synonym: medication
+  examples: |
+    - med
+    - medicine
+    - prescription
+
+- lookup: underlying_condition
+  examples: |
+    - HIV
+    - chronic lung disease
+    - chronic heart disease
+    - Sickle cell disease
+    - Neurodevelopmental disorder
+    - Asthma
+    - Obesity
+    - Diabetes
+    - Chronic kidney disease
+    - Conditions require support from medical machine
+    - Suppressed immune system
+    - liver disease
+    - hepatitis B
+    - hepatitis C
+    - cancer
+    - substance use
+
+
+- lookup: family
+  examples: |
+    - child
+    - grandmother
+    - aunt
+    - uncle
+    - wife
+    - husband
+    - grandfather
+    - niece
+    - nephew
+    - coworker
+    - friend
+    - son
+    - daughter
+    - sister
+    - brother
+    
+
+- lookup: provider
+  examples: |
+    - pfizer
+    - janssen
+    - moderna
+
+- lookup: gender
+  examples: |
+    - male
+    - female
+    - bisexual
+    - gay
+    - lesbian
+    - non-binary
+
+- synonym: dose
+  examples: |
+    - shot
+
+
+#intentions
+#checkpoint 3
+
+- intent: thanks
+  examples: |
+    - thanks
+    - thank you
+    - appreciate it
+    - great, thanks
+    - that's helpful
+
+- intent: out_of_scope
+  examples: |
+    - i want to order pizza
+    - where is the library
+    - this isn't working
+    - we need to breakup
+    - i love you
+    - show the direction to the nearest restaurant
+    - whats for drink
+    - dinner?
+    - where is the restroom
+    - free meal?
+    - find jobs
+    - anime recommendation
+    - movie suggestion
+    - book review
+
+- intent: how_pfizer_vaccine_works
+  examples: |
+    - how does the pfizer vaccine work?
+    - how does mRNA pfizer work?
+    - what is mRNA in pfizer?
+
+- intent: how_moderna_vaccine_works
+  examples: |
+    - how does the moderna vaccine work?
+    - how does mRNA moderna work?
+    - what is mRNA in moderna?
+
+# checkpoint 2
+- intent: DNA
+  examples: |
+    - DNA
+    - will the vaccine alter my DNA?
+    - i heard covid vaccine alter DNA
+    - can the moderna vaccine change my DNA
+    - Will a COVID-19 vaccine alter my DNA?
+
+- intent: Magnetic
+  examples: |
+    - Can receiving a COVID-19 vaccine cause you to be magnetic?
+    - magnetic
+    - will corona vaccine make me magnetic?
+    - Can I be magnetic after get the vaccine?
+
+- intent: Shedding
+  examples: |
+    - Do any of the COVID-19 vaccines authorized for use in the United States shed or release any of their components?
+    - shedding
+    - shed
+
+- intent: Mandate
+  examples: |
+    - Can CDC mandate that I get a COVID-19 vaccine?
+    - mandate
+    - do i have to get the vaccine?
+    - do you have to get the vaccine?
+    - do you obligate to take covid shot?
+    - do the government require everyone to get the vaccine?
+
+- intent: Viral_test
+  examples: |
+    - After getting a COVID-19 vaccine, will I test positive for COVID-19 on a viral test?
+    - viral test
+    - covid-19 test
+    - Would the vaccine make the viral test invalid?
+    - Can you get negative results for covid after vaccine?
+
+- intent: Menstrual_cycle
+  examples: |
+    - Can being near someone who received a COVID-19 vaccine affect my menstrual cycle?
+    - menstrual cycle
+    - will covid vaccine alter my menstrual cycle?
+    - would the vaccine change my period cycle?
+    - would your period delay after vaccination?
+
+- intent: Sick_with_covid
+  examples: |
+    - Can a COVID-19 vaccine make me sick with COVID-19?
+    - Would covid vaccine cause you be infected with the corona virus?
+    - what is the chance of you get sick with covid after vaccine?
+
+- intent: Call_if_no_internet_or_help_signing_up
+  examples: |
+    - i dont have internet at home, how can i book an appointment for vaccine?
+    - i dont know how to book an appointment, can someone help me?
+    - what are the options for those without internet or wifi?
+    - i dont use internet, any other ways i can find a vaccine place?
+    - my neighborhood have no internet, what to do?
+
+- intent: V-safe
+  examples: |
+    - how to report side effects after the vaccine?
+    - what are the ways the government or CDC monitor the vaccine taker?
+    - what is v-safe?
+    - is v-safe transparent?
+    - will v-safe collect personal data without permission?
+
+- intent: Childcare
+  examples: |
+    - i cant go get vaccine because nobody will watch my children
+    - is there any childcare for vaccine taker?
+    - childcare
+    - will there be support for parent with small children?
+
+- intent: Incentives_or_benefit
+  examples: |
+    - what are the benefits of getting the vaccines?
+    - what are the [incentives]{"entity": "incentive", "value": "rewards"} of getting the vaccines?
+    - what are Support available to help you get your vaccine?
+    - Employees of which companies are eligible for additional vaccination support?
+    - Does employer have support policy to help employees?
+
+#extract >75
+- intent: Over_75_year_old
+  examples: |
+    - if my grandpa is over 75 years old, should he take the vaccine?
+    - if my grandma is 90, what are her risks for taking the vaccine?
+    - is it riskier for elder to get he vaccine?
+    - I am an older person, can I still get vaccinated?
+
+- intent: Only_1_dose_out_of_2
+  examples: |
+    - Can I take only 1 shot?
+    - can you take only 1 dose of pfizer?
+    - I dont have time to take 2 doses, can I just take one dose?
+
+- intent: Different_provider_for_each_dose
+  examples: |
+    - can you mix vaccines?
+    - can i take moderna first dose and take pfizer the second dose?
+    - can i take different covid vaccine for each shot?
+
+- intent: Muslim
+  examples: |
+    - will the vaccine be suitable for Muslims?
+    - is there any ingredient in covid vaccine that is from pig?
+    - i'm a Muslim, i want to know if the ingredients that is from pork?
+    - i heard the protein in vaccine is from pork
+
+
+
+
+
+
+
+
+- intent: Spread
+  examples: |
+    - how does covid-19 spread?
+    - can i get covid by going to the grocery?
+    - does covid spread by air?
+    - does covid spread through blood?
+    - what is community spread?
+    - can mosquitoes or ticks spread covid?
+    - am i at risk for Covid from mail, package, or products?
+
+- intent: Prevention
+  examples: |
+    - how to prevent catching covid?
+    - what are the ways to protect myself or family from getting the virus?
+    - how to not get covid?
+    - is washing hand with soap and water enough to prevent covid?
+    - what cleaning products should i use?
+
+- intent: Treatment
+  examples: |
+    - what is the treatment for covid?
+    - is there a cure for covid?
+    - can [tylenol]{"entity": "medication"} treat covid?
+    - what if recently i had close contact with someone with covid?
+
+- intent: Isolation
+  examples: |
+    - what is isolation?
+    - isolation vs quarantine
+    - how to isolate at home?
+
+- intent: children
+  examples: |
+    - should children wear mask?
+    - can children spend time with adults and people with chronic medical condition?
+    - Multisystem Inflammatory Syndrome in Children 
+    - MIS-C
+    - should infant be tested for covid?
+
+- intent: Emergency_signs
+  examples: |
+    - when should i go to emergency room or call 911?
+    - what are emergency signs?
+    - what kind of symptoms that i should be concern?
+
+- intent: Testing
+  examples: |
+    - where can i get a covid test
+    - i suspect that I have covid. what should i do?
+    - should i be worry about having coronavirus if I have [fever]{"entity": "symptom"}?
+    - is at home testing available?
+    - can someone test negative and later test positive on the test for covid?
+
+- intent: Face_covering
+  examples: |
+    - why do i need to wear mask?
+    - how will mask protect me?
+    - mask
+    - i dont want to cover my face
+    - i dont like wearing mask, is there alternatives?
+
+- intent: Higher_risk_of_severe_illness
+  examples: |
+    - I am a [smoker]("underlying_conditions"), does that put me in higher risk of severe illness if i catch covid?
+    - what are severe illnesses that covid can possibly do?
+    - i'm in the high risk group, what should i do?
+    - high risk group
+    - who is at increased risk for developing severe illness from covid?
+    - are people with disabilities at higher risk?
+
+# - intent: Social_distancing
+#   examples: |
+#     - will standing next to someone closer than 6 feet make me more likely to be infected?
+#     - why do i need to social distance?
+#     - i don't want to social distant?
+#     - social distancing doesn't matter?
+
+# - intent: Seasonal_allergies
+#   examples: |
+#     - what is the difference between covid and seasonal allergies?
+#     - does having seasonal allergy increase my risk of contracting covid?
+#     - does having seasonal allergy increase my risk of having severe symptoms if i contract covid?
+#     - will i be protect from seasonal allergy if i wear mask?
+#     - how can i protect myself from seasonal allergy?
+
+# - intent: Vape
+#   examples: |
+#     - if i vape, am i at risk for complications from covid?
+#     - i vape casually with nicotine, does that matter?
+#     - i used to smoke, but now i vape. does that put me at higher risks?
+
+# - intent: Funeral
+#   examples: |
+#     - am i at risk if i go to a funeral or service of someone die due to covid?
+#     - how to handle belongings and body of someone died from covid?
+#     - can i use pool water to disinfect surface and objects?
+
+# - intent: Cleaning_and_disinfection
+#   examples: |
+#     - do disinfectants kill new strains of covid?
+#     - what is the difference between cleaning and disinfecting?
+
+- intent: Pets_and_animals
+  examples: |
+    - can i get covid from my pets or other animals?
+    - can animal or pet carry covid on their skin or fur?
+    - can i use hand sanitizer on my [dog]{"entity": "pet", "values":"cat"}?
+    - ca i get my dog test for covid?
+
+# - intent: Food_and_water
+#   examples: |
+#     - can i get covid from food or drinks?
+#     - can covid got spread through treated drinking water or tap water?
+#     - can covid got spread through wastewater system?
+#     - can covid got spread through stool?
+
+# - intent: Water_playground
+#   examples: |
+#     - can covid got spread through pool, hot tubs, water playgrounds?
+#     - can covid got spread through rivers, ponds, oceans, lakes?
+
+
+
+
+#checkpoint 1
+- intent: Already_had_covid
+  examples: |
+    - I currently have the virus, do i need the vaccine?
+    - Im having covid, should I take the vaccine?
+    - I already have corona, can I still get the vaccine?
+    - already been infected by it, do I still need to be vaccinate?
+    - what if I already had covid?
+    - what if I am having the virus?
+    - i already have it
+
+- intent: Safe_for_Children
+  examples: |
+    - is it safe for my [child]{"entity": "family", "value": "children"} to take the vaccine?
+    - i have children, would it be safe for them to get the vaccine?
+    - children can't get covid, right?
+    - my children are 3 and 11, are they allowed to get [pfizer]{"entity": "provider"} vaccine?
+    - will my child get
+
+- intent: Why_get_vaccine
+  examples: |
+    - why should my child get vaccinated against covid-19?
+    - covid isnt that serious
+    - i dont want to get the vaccine
+    - why do I need vaccine?
+    - what will vaccine do for me?
+    - can vaccine cure covid-19?
+
+- intent: How_to_get_vaccine
+  examples: |
+    - where i can get vaccine?
+    - where can i get the vaccine
+    - how do i get the vaccine?
+    - how do i get vaccinated
+    - when can i get the vaccine?
+    - when can i get [janssen]{"entity": "provider"}?
+    - i want to get the vaccine
+    - i want to get [moderna]{"entity": "provider"}
+    - i dont know how to get the vaccine
+    - i don't know where to get vaccine
+
+- intent: Janssen_blood_clots_women_under_50
+  examples: |
+    - Will getting the J & J vaccine cause me clots?
+    - blood clot
+    - i heard covid vaccine cause blood clots
+    - if my [grandma]{"entity": "family"} is 74, can she take the janssen vaccine?
+    - clots
+
+#medical screening require
+- intent: Which_vaccine_to_choose  
+  examples: |
+    - which provider should i get vaccine from?
+    - i don't know which vaccine to choose
+    - which vaccine is the best?
+    - which vaccine is the best if I am a [man]{"entity": "gender", "value": "male"}
+
+- intent: medication_vaccine
+  examples: |
+    - Does the vaccine react poorly with any medications, or do the prescriptions I'm taking preclude me from being able to get a vaccine?
+    - will taking [blood thinner]{"entity": "medication"} medication react to the vaccine?
+    - what medicine I need not take after vaccine?
+    - can I take my med after vaccination?
+    - is there any medication i cannot take with the vaccine?
+
+- intent: Pregnant
+  examples: |
+    - i am pregnant, should I take the vaccine?
+    - My [aunt]{"entity": "family", "value": "auntie"} is pregnant, what are the risks?
+    - pregnant
+    - im in my trimester of pregnancy, i dont know if it is worth it to get vaccinated
+    - i am pregnant, what are the risks if I get the [pfizer]{"entity": "provider"} vaccine?
+
+- intent: breastfeed
+  examples: |
+    - i am breastfeeding, should I take the vaccine?
+    - can breastfeeding women get vaccine?
+    - my [wife]{"entity": "family"} is feeding the baby with her milk, will the vaccine affect her or the baby?
+
+- intent: parent_to_be
+  examples: |
+    - Can parent-to-be receive a COVID-19 vaccine?
+    - i want to have children in the future, will the vaccine affect me or my children?
+    - i heard covid vaccine cause Down syndrome, is that true?
+
+- intent: How_long_vaccine_protection_last
+  examples: |
+    - will i still get covid after the shots?
+    - do i need booster shot later in the future?
+    - how long can the vaccine protect me from Corona?
+
+- intent: Mask_and_social_distance_after_vaccination
+  examples: |
+    - do i need to social distancing after fully vaccinated?
+    - I dont have to wear mask anymore after I get the vaccine, correct?
+    - I don't have to social distance after getting the vaccine
+    - business cant make me wear mask after I take the vaccine
+
+- intent: Vaccine_ingredients
+  examples: |
+    - what is inside the [janssen]{"entity": "provider"} vaccine?
+    - I want to know what is in covid-19 vaccine
+    - is there any ingredient in the vaccine cause allergic reaction?
+    - vaccine ingredients list
+    - is [protein]{"entity": "ingredient"} in the vaccine?
+    - what is inside the vaccine?
+
+- intent: Vaccine_price
+  examples: |
+    - how much is one shot of vaccine?
+    - how much does it cost for a shot of vaccine?
+    - how much is the [moderna]{"entity": "provider"} vaccines?
+
+- intent: Underlying_conditions
+  examples: |
+    - i have [chronic lung disease]{"entity": "underlying_condition"} , should i get the vaccine?
+    - i have underlying condition, can i still take the vaccine?
+    - i have [HIV]{"entity": "underlying_condition"}, will vaccine protect me against covid?
+
+- intent: New_variants
+  examples: |
+    - will vaccine protect me against new covid-19 variants?
+    - i heard there are new variants from india, is the [pfizer]{"entity": "provider"} vaccine still effective?
+    - does vaccine work for new UK corona strain?
+    - does the vaccine work for the new England covid variant or the Indian strain?
+
+- intent: What_to_expect_when_getting_the_vaccine
+  examples: |
+    - what do i need to do before the vaccine?
+    - Do I need to bring anything to the vaccine appointment?
+    - I booked the appointment, now what?
+    - what i need to know before showing for the appointment?
+    - what can i expect at the vaccination center?
+    - how does the vaccination process works?
+    - describe to me what will happen when I get there?
+
+- intent: Breakthrough_cases
+  examples: |
+    - i heard people die right after getting the vaccine?
+    - i heard some people pass away after getting the [moderna]{"entity": "provider"} vaccine
+    - how many people die because of the vaccine?
+    - can i die from getting the vaccine?
+    - will i get illness or disease or paralysis from the vaccine?
+
+- intent: rate_pfizer
   examples: |
     - what is the rate of pfizer?
     - how effective is pfizer
     - is it safe to take shot from pfizer?
 
-- intent: moderna
+- intent: rate_moderna
   examples: |
     - what is the rate of moderna
     - how credible is moderna?
     - is it safe to take shot from moderna?
 
-- intent: jj
+- intent: rate_jj
   examples: |
     - what is the rate of janssen?
     - how good is janssen?
@@ -132,16 +586,20 @@ nlu:
 
 - intent: covid_demographic
   examples: |
-    - how dangerous is covid 19
-    - is covid real?
+    - how dangerous is covid 19?
     - can black people get covid?
+    - covid mortality rate
+    - how many case of covid in the US?
+    - how many case of covid in my state?
+    - different race statistic
+    - different ethnicity statistic
+    - age group demographic
 
-- intent: should_not_vaccine
-  examples: |
-    - who should not get the covid vaccine?
-    - can I get vaccine if I have high blood pressure?
-    - I am under 16, should I take covid shot?
-    - I have chronic conditions, can I get shot?
+
+#- intent: should_not_vaccine
+#  examples: |
+#   - who should not get the covid vaccine?
+#    - I am under 16, should I take covid shot?
 
 - intent: dose_pfizer
   examples: |
@@ -170,4 +628,80 @@ nlu:
     - what do i do after the vaccine?
     - what if i get allergic reaction after a few days?
     - i got the shots, then what?
-    - will i still get covid after the shots?
+    - what are possible side effects?
+    - will i lost my taste or smell after vaccination?
+    - i have [fever]{"entity": "symptom"} after the 2nd dose
+    - side effects
+    - do i need to take day off after been vaccinated?
+
+#default
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - yo
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - sure
+    - ok
+    - yup
+    - alright
+    - yeah
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - nope
+    - pass
+    - no thanks
+    - dont
+    - maybe
+    - eh
+    - i don't have time
+    - i'll see
+
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

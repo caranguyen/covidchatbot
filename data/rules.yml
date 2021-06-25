@@ -1,13 +1,18 @@
 version: "2.0"
 
 rules:
-
+- rule: welcome user
+  conversation_start: True  # this rule only applies at the beginning of a conversation
+  steps:
+      - intent: greet
+      - action: utter_welcome
+      
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
   - action: utter_goodbye
 
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+#- rule: Say 'I am a bot' anytime the user challenges
+#  steps:
+#  - intent: bot_challenge
+#  - action: utter_iamabot
