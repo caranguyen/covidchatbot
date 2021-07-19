@@ -1,0 +1,2250 @@
+[
+  {
+    "text": "Moderna vaccine ingredients",
+    "intent": "Vaccine_ingredients_moderna",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9633238911628723
+    }
+  },
+  {
+    "text": "modena vaccine ingredient",
+    "intent": "Vaccine_ingredients_moderna",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9555380344390869
+    }
+  },
+  {
+    "text": "pfizer vaccine ingredients",
+    "intent": "Vaccine_ingredients_pfizer",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9917484521865845
+    }
+  },
+  {
+    "text": "pfiezer vaccine ingredient",
+    "intent": "Vaccine_ingredients_pfizer",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9947767853736877
+    }
+  },
+  {
+    "text": "Janssen vaccine ingredients",
+    "intent": "Vaccine_ingredients_janssen",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3523349165916443
+    }
+  },
+  {
+    "text": "Jassen vaccine ingredient",
+    "intent": "Vaccine_ingredients_janssen",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.4563263952732086
+    }
+  },
+  {
+    "text": "Johnson vaccine ingredient",
+    "intent": "Vaccine_ingredients_janssen",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8786302804946899
+    }
+  },
+  {
+    "text": "thanks",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.879759669303894
+    }
+  },
+  {
+    "text": "thank you",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9366251826286316
+    }
+  },
+  {
+    "text": "appreciate it",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5998240113258362
+    }
+  },
+  {
+    "text": "great, thanks",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.999819815158844
+    }
+  },
+  {
+    "text": "that's helpful",
+    "intent": "thanks",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9975969195365906
+    }
+  },
+  {
+    "text": "i want to order pizza",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8103669285774231
+    }
+  },
+  {
+    "text": "where is the library",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9663369655609131
+    }
+  },
+  {
+    "text": "this isn't working",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9846195578575134
+    }
+  },
+  {
+    "text": "we need to breakup",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.41185081005096436
+    }
+  },
+  {
+    "text": "i love you",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9686993360519409
+    }
+  },
+  {
+    "text": "show the direction to the nearest restaurant",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.48849111795425415
+    }
+  },
+  {
+    "text": "whats for drink",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9916396141052246
+    }
+  },
+  {
+    "text": "dinner?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9989078044891357
+    }
+  },
+  {
+    "text": "where is the restroom",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.901558518409729
+    }
+  },
+  {
+    "text": "free meal?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9933330416679382
+    }
+  },
+  {
+    "text": "find jobs",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9302462935447693
+    }
+  },
+  {
+    "text": "anime recommendation",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7843886613845825
+    }
+  },
+  {
+    "text": "movie suggestion",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9783567786216736
+    }
+  },
+  {
+    "text": "book review",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9956670999526978
+    }
+  },
+  {
+    "text": "how does the pfizer vaccine work?",
+    "intent": "how_pfizer_vaccine_works",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9793844819068909
+    }
+  },
+  {
+    "text": "how does mRNA pfizer work?",
+    "intent": "how_pfizer_vaccine_works",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7987508177757263
+    }
+  },
+  {
+    "text": "what is mRNA in pfizer?",
+    "intent": "how_pfizer_vaccine_works",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.36547398567199707
+    }
+  },
+  {
+    "text": "how does the moderna vaccine work?",
+    "intent": "how_moderna_vaccine_works",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9101116061210632
+    }
+  },
+  {
+    "text": "how does mRNA moderna work?",
+    "intent": "how_moderna_vaccine_works",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9510046243667603
+    }
+  },
+  {
+    "text": "what is mRNA in moderna?",
+    "intent": "how_moderna_vaccine_works",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6775863766670227
+    }
+  },
+  {
+    "text": "DNA",
+    "intent": "DNA",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9503999948501587
+    }
+  },
+  {
+    "text": "will the vaccine alter my DNA?",
+    "intent": "DNA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.47348451614379883
+    }
+  },
+  {
+    "text": "i heard covid vaccine alter DNA",
+    "intent": "DNA",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.548147976398468
+    }
+  },
+  {
+    "text": "can the moderna vaccine change my DNA",
+    "intent": "DNA",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9043160080909729
+    }
+  },
+  {
+    "text": "Will a COVID-19 vaccine alter my DNA?",
+    "intent": "DNA",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.44847652316093445
+    }
+  },
+  {
+    "text": "Can receiving a COVID-19 vaccine cause you to be magnetic?",
+    "intent": "Magnetic",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6360931396484375
+    }
+  },
+  {
+    "text": "magnetic",
+    "intent": "Magnetic",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9913731217384338
+    }
+  },
+  {
+    "text": "will corona vaccine make me magnetic?",
+    "intent": "Magnetic",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.359732061624527
+    }
+  },
+  {
+    "text": "Can I be magnetic after get the vaccine?",
+    "intent": "Magnetic",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6135769486427307
+    }
+  },
+  {
+    "text": "Do any of the COVID-19 vaccines authorized for use in the United States shed or release any of their components?",
+    "intent": "Shedding",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9679287672042847
+    }
+  },
+  {
+    "text": "shedding",
+    "intent": "Shedding",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9999221563339233
+    }
+  },
+  {
+    "text": "shed",
+    "intent": "Shedding",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.4095844030380249
+    }
+  },
+  {
+    "text": "Can CDC mandate that I get a COVID-19 vaccine?",
+    "intent": "Mandate",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.39791780710220337
+    }
+  },
+  {
+    "text": "mandate",
+    "intent": "Mandate",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7731385231018066
+    }
+  },
+  {
+    "text": "do i have to get the vaccine?",
+    "intent": "Mandate",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6820074319839478
+    }
+  },
+  {
+    "text": "do you have to get the vaccine?",
+    "intent": "Mandate",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9495857357978821
+    }
+  },
+  {
+    "text": "do you obligate to take covid shot?",
+    "intent": "Mandate",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9471527934074402
+    }
+  },
+  {
+    "text": "do the government require everyone to get the vaccine?",
+    "intent": "Mandate",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8769302368164062
+    }
+  },
+  {
+    "text": "After getting a COVID-19 vaccine, will I test positive for COVID-19 on a viral test?",
+    "intent": "Viral_test",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5296993851661682
+    }
+  },
+  {
+    "text": "viral test",
+    "intent": "Viral_test",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6133835315704346
+    }
+  },
+  {
+    "text": "covid-19 test",
+    "intent": "Viral_test",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9009153842926025
+    }
+  },
+  {
+    "text": "Would the vaccine make the viral test invalid?",
+    "intent": "Viral_test",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.99622642993927
+    }
+  },
+  {
+    "text": "Can you get negative results for covid after vaccine?",
+    "intent": "Viral_test",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8248849511146545
+    }
+  },
+  {
+    "text": "Can being near someone who received a COVID-19 vaccine affect my menstrual cycle?",
+    "intent": "Menstrual_cycle",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.748000979423523
+    }
+  },
+  {
+    "text": "menstrual cycle",
+    "intent": "Menstrual_cycle",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.3911745250225067
+    }
+  },
+  {
+    "text": "will covid vaccine alter my menstrual cycle?",
+    "intent": "Menstrual_cycle",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5692815184593201
+    }
+  },
+  {
+    "text": "would the vaccine change my period cycle?",
+    "intent": "Menstrual_cycle",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9787969589233398
+    }
+  },
+  {
+    "text": "would your period delay after vaccination?",
+    "intent": "Menstrual_cycle",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5666269063949585
+    }
+  },
+  {
+    "text": "Can a COVID-19 vaccine make me sick with COVID-19?",
+    "intent": "Sick_with_covid",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6293864250183105
+    }
+  },
+  {
+    "text": "Would covid vaccine cause you be infected with the corona virus?",
+    "intent": "Sick_with_covid",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5185465812683105
+    }
+  },
+  {
+    "text": "what is the chance of you get sick with covid after vaccine?",
+    "intent": "Sick_with_covid",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5216262340545654
+    }
+  },
+  {
+    "text": "i dont have internet at home, how can i book an appointment for vaccine?",
+    "intent": "Call_if_no_internet_or_help_signing_up",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5603547096252441
+    }
+  },
+  {
+    "text": "i dont know how to book an appointment, can someone help me?",
+    "intent": "Call_if_no_internet_or_help_signing_up",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.43138253688812256
+    }
+  },
+  {
+    "text": "what are the options for those without internet or wifi?",
+    "intent": "Call_if_no_internet_or_help_signing_up",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3416531980037689
+    }
+  },
+  {
+    "text": "i dont use internet, any other ways i can find a vaccine place?",
+    "intent": "Call_if_no_internet_or_help_signing_up",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4653274118900299
+    }
+  },
+  {
+    "text": "my neighborhood have no internet, what to do?",
+    "intent": "Call_if_no_internet_or_help_signing_up",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8871325254440308
+    }
+  },
+  {
+    "text": "how to report side effects after the vaccine?",
+    "intent": "V-safe",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6346340775489807
+    }
+  },
+  {
+    "text": "what are the ways the government or CDC monitor the vaccine taker?",
+    "intent": "V-safe",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.3597036898136139
+    }
+  },
+  {
+    "text": "what is v-safe?",
+    "intent": "V-safe",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8461921811103821
+    }
+  },
+  {
+    "text": "is v-safe transparent?",
+    "intent": "V-safe",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9376526474952698
+    }
+  },
+  {
+    "text": "will v-safe collect personal data without permission?",
+    "intent": "V-safe",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8850902915000916
+    }
+  },
+  {
+    "text": "i cant go get vaccine because nobody will watch my children",
+    "intent": "Childcare",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.37869584560394287
+    }
+  },
+  {
+    "text": "is there any childcare for vaccine taker?",
+    "intent": "Childcare",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5255407691001892
+    }
+  },
+  {
+    "text": "childcare",
+    "intent": "Childcare",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5911919474601746
+    }
+  },
+  {
+    "text": "will there be support for parent with small children?",
+    "intent": "Childcare",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5418962836265564
+    }
+  },
+  {
+    "text": "what are the benefits of getting the vaccines?",
+    "intent": "Incentives_or_benefit",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5025048851966858
+    }
+  },
+  {
+    "text": "what are the incentives of getting the vaccines?",
+    "intent": "Incentives_or_benefit",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.4646037518978119
+    }
+  },
+  {
+    "text": "what are Support available to help you get your vaccine?",
+    "intent": "Incentives_or_benefit",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.996286153793335
+    }
+  },
+  {
+    "text": "Employees of which companies are eligible for additional vaccination support?",
+    "intent": "Incentives_or_benefit",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6948468089103699
+    }
+  },
+  {
+    "text": "Does employer have support policy to help employees?",
+    "intent": "Incentives_or_benefit",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8032979965209961
+    }
+  },
+  {
+    "text": "if my grandpa is over 75 years old, should he take the vaccine?",
+    "intent": "Over_75_year_old",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8896273970603943
+    }
+  },
+  {
+    "text": "if my grandma is 90, what are her risks for taking the vaccine?",
+    "intent": "Over_75_year_old",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.48139840364456177
+    }
+  },
+  {
+    "text": "is it riskier for elder to get he vaccine?",
+    "intent": "Over_75_year_old",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.42830827832221985
+    }
+  },
+  {
+    "text": "I am an older person, can I still get vaccinated?",
+    "intent": "Over_75_year_old",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7488744258880615
+    }
+  },
+  {
+    "text": "Can I take only 1 shot?",
+    "intent": "Only_1_dose_out_of_2",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.4672081768512726
+    }
+  },
+  {
+    "text": "can you take only 1 dose of pfizer?",
+    "intent": "Only_1_dose_out_of_2",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.4297422766685486
+    }
+  },
+  {
+    "text": "I dont have time to take 2 doses, can I just take one dose?",
+    "intent": "Only_1_dose_out_of_2",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4835219085216522
+    }
+  },
+  {
+    "text": "can you mix vaccines?",
+    "intent": "Different_provider_for_each_dose",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.784646213054657
+    }
+  },
+  {
+    "text": "can i take moderna first dose and take pfizer the second dose?",
+    "intent": "Different_provider_for_each_dose",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6298243403434753
+    }
+  },
+  {
+    "text": "can i take different covid vaccine for each shot?",
+    "intent": "Different_provider_for_each_dose",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6625819802284241
+    }
+  },
+  {
+    "text": "will the vaccine be suitable for Muslims?",
+    "intent": "Muslim",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7329227328300476
+    }
+  },
+  {
+    "text": "is there any ingredient in covid vaccine that is from pig?",
+    "intent": "Muslim",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7002805471420288
+    }
+  },
+  {
+    "text": "i'm a Muslim, i want to know if the ingredients that is from pork?",
+    "intent": "Muslim",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5312269330024719
+    }
+  },
+  {
+    "text": "i heard the protein in vaccine is from pork",
+    "intent": "Muslim",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6344274282455444
+    }
+  },
+  {
+    "text": "how does covid-19 spread?",
+    "intent": "Spread",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9882972836494446
+    }
+  },
+  {
+    "text": "can i get covid by going to the grocery?",
+    "intent": "Spread",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5053704977035522
+    }
+  },
+  {
+    "text": "does covid spread by air?",
+    "intent": "Spread",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5159401893615723
+    }
+  },
+  {
+    "text": "does covid spread through blood?",
+    "intent": "Spread",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9574514031410217
+    }
+  },
+  {
+    "text": "what is community spread?",
+    "intent": "Spread",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7737386226654053
+    }
+  },
+  {
+    "text": "can mosquitoes or ticks spread covid?",
+    "intent": "Spread",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.624129593372345
+    }
+  },
+  {
+    "text": "am i at risk for Covid from mail, package, or products?",
+    "intent": "Spread",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8293520212173462
+    }
+  },
+  {
+    "text": "how to prevent catching covid?",
+    "intent": "Prevention",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4953792095184326
+    }
+  },
+  {
+    "text": "what are the ways to protect myself or family from getting the virus?",
+    "intent": "Prevention",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9405708312988281
+    }
+  },
+  {
+    "text": "how to not get covid?",
+    "intent": "Prevention",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9870434403419495
+    }
+  },
+  {
+    "text": "is washing hand with soap and water enough to prevent covid?",
+    "intent": "Prevention",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5256460309028625
+    }
+  },
+  {
+    "text": "what cleaning products should i use?",
+    "intent": "Prevention",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6554327011108398
+    }
+  },
+  {
+    "text": "what is the treatment for covid?",
+    "intent": "Treatment",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7899814248085022
+    }
+  },
+  {
+    "text": "is there a cure for covid?",
+    "intent": "Treatment",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7261373400688171
+    }
+  },
+  {
+    "text": "can tylenol treat covid?",
+    "intent": "Treatment",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4034203290939331
+    }
+  },
+  {
+    "text": "what if recently i had close contact with someone with covid?",
+    "intent": "Treatment",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5287652015686035
+    }
+  },
+  {
+    "text": "what is isolation?",
+    "intent": "Isolation",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7580775618553162
+    }
+  },
+  {
+    "text": "isolation vs quarantine",
+    "intent": "Isolation",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7193326354026794
+    }
+  },
+  {
+    "text": "how to isolate at home?",
+    "intent": "Isolation",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7651168704032898
+    }
+  },
+  {
+    "text": "should children wear mask?",
+    "intent": "children",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9903714060783386
+    }
+  },
+  {
+    "text": "can children spend time with adults and people with chronic medical condition?",
+    "intent": "children",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.42776811122894287
+    }
+  },
+  {
+    "text": "Multisystem Inflammatory Syndrome in Children",
+    "intent": "children",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.3155476748943329
+    }
+  },
+  {
+    "text": "MIS-C",
+    "intent": "children",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6099865436553955
+    }
+  },
+  {
+    "text": "should infant be tested for covid?",
+    "intent": "children",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.4856928884983063
+    }
+  },
+  {
+    "text": "when should i go to emergency room or call 911?",
+    "intent": "Emergency_signs",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5908753871917725
+    }
+  },
+  {
+    "text": "what are emergency signs?",
+    "intent": "Emergency_signs",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.637063205242157
+    }
+  },
+  {
+    "text": "what kind of symptoms that i should be concern?",
+    "intent": "Emergency_signs",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9810125827789307
+    }
+  },
+  {
+    "text": "where can i get a covid test",
+    "intent": "Testing",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5786986351013184
+    }
+  },
+  {
+    "text": "i suspect that I have covid. what should i do?",
+    "intent": "Testing",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.3157004117965698
+    }
+  },
+  {
+    "text": "should i be worry about having coronavirus if I have fever?",
+    "intent": "Testing",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6573817133903503
+    }
+  },
+  {
+    "text": "is at home testing available?",
+    "intent": "Testing",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8801459670066833
+    }
+  },
+  {
+    "text": "can someone test negative and later test positive on the test for covid?",
+    "intent": "Testing",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5252377390861511
+    }
+  },
+  {
+    "text": "why do i need to wear mask?",
+    "intent": "Face_covering",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5742276310920715
+    }
+  },
+  {
+    "text": "how will mask protect me?",
+    "intent": "Face_covering",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7244693040847778
+    }
+  },
+  {
+    "text": "mask",
+    "intent": "Face_covering",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9094788432121277
+    }
+  },
+  {
+    "text": "i dont want to cover my face",
+    "intent": "Face_covering",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7714807987213135
+    }
+  },
+  {
+    "text": "i dont like wearing mask, is there alternatives?",
+    "intent": "Face_covering",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5183064341545105
+    }
+  },
+  {
+    "text": "I am a smoker, does that put me in higher risk of severe illness if i catch covid?",
+    "intent": "Higher_risk_of_severe_illness",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8815416693687439
+    }
+  },
+  {
+    "text": "what are severe illnesses that covid can possibly do?",
+    "intent": "Higher_risk_of_severe_illness",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7433128356933594
+    }
+  },
+  {
+    "text": "i'm in the high risk group, what should i do?",
+    "intent": "Higher_risk_of_severe_illness",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.47938162088394165
+    }
+  },
+  {
+    "text": "high risk group",
+    "intent": "Higher_risk_of_severe_illness",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6336358189582825
+    }
+  },
+  {
+    "text": "who is at increased risk for developing severe illness from covid?",
+    "intent": "Higher_risk_of_severe_illness",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.3520635962486267
+    }
+  },
+  {
+    "text": "are people with disabilities at higher risk?",
+    "intent": "Higher_risk_of_severe_illness",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5271130800247192
+    }
+  },
+  {
+    "text": "can i get covid from my pets or other animals?",
+    "intent": "Pets_and_animals",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8144010305404663
+    }
+  },
+  {
+    "text": "can animal or pet carry covid on their skin or fur?",
+    "intent": "Pets_and_animals",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.32131320238113403
+    }
+  },
+  {
+    "text": "can i use hand sanitizer on my dog?",
+    "intent": "Pets_and_animals",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9982470273971558
+    }
+  },
+  {
+    "text": "ca i get my dog test for covid?",
+    "intent": "Pets_and_animals",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9088703989982605
+    }
+  },
+  {
+    "text": "I currently have the virus, do i need the vaccine?",
+    "intent": "Already_had_covid",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7101183533668518
+    }
+  },
+  {
+    "text": "Im having covid, should I take the vaccine?",
+    "intent": "Already_had_covid",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.63746577501297
+    }
+  },
+  {
+    "text": "I already have corona, can I still get the vaccine?",
+    "intent": "Already_had_covid",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8438009023666382
+    }
+  },
+  {
+    "text": "already been infected by it, do I still need to be vaccinate?",
+    "intent": "Already_had_covid",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9022388458251953
+    }
+  },
+  {
+    "text": "what if I already had covid?",
+    "intent": "Already_had_covid",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9070608019828796
+    }
+  },
+  {
+    "text": "what if I am having the virus?",
+    "intent": "Already_had_covid",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9702944755554199
+    }
+  },
+  {
+    "text": "i already have it",
+    "intent": "Already_had_covid",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9958329200744629
+    }
+  },
+  {
+    "text": "is it safe for my child to take the vaccine?",
+    "intent": "Safe_for_Children",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6346340179443359
+    }
+  },
+  {
+    "text": "i have children, would it be safe for them to get the vaccine?",
+    "intent": "Safe_for_Children",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8555200695991516
+    }
+  },
+  {
+    "text": "children can't get covid, right?",
+    "intent": "Safe_for_Children",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7025017738342285
+    }
+  },
+  {
+    "text": "my children are 3 and 11, are they allowed to get pfizer vaccine?",
+    "intent": "Safe_for_Children",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9208959937095642
+    }
+  },
+  {
+    "text": "will my child get",
+    "intent": "Safe_for_Children",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9934163093566895
+    }
+  },
+  {
+    "text": "why should my child get vaccinated against covid-19?",
+    "intent": "Why_get_vaccine",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9307144284248352
+    }
+  },
+  {
+    "text": "covid isnt that serious",
+    "intent": "Why_get_vaccine",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9592663645744324
+    }
+  },
+  {
+    "text": "i dont want to get the vaccine",
+    "intent": "Why_get_vaccine",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9491885900497437
+    }
+  },
+  {
+    "text": "why do I need vaccine?",
+    "intent": "Why_get_vaccine",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9498093724250793
+    }
+  },
+  {
+    "text": "what will vaccine do for me?",
+    "intent": "Why_get_vaccine",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.691436767578125
+    }
+  },
+  {
+    "text": "can vaccine cure covid-19?",
+    "intent": "Why_get_vaccine",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9637128710746765
+    }
+  },
+  {
+    "text": "where i can get vaccine?",
+    "intent": "How_to_get_vaccine",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9328415989875793
+    }
+  },
+  {
+    "text": "where can i get the vaccine",
+    "intent": "How_to_get_vaccine",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9752652049064636
+    }
+  },
+  {
+    "text": "how do i get the vaccine?",
+    "intent": "How_to_get_vaccine",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9397952556610107
+    }
+  },
+  {
+    "text": "how do i get vaccinated",
+    "intent": "How_to_get_vaccine",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9343405961990356
+    }
+  },
+  {
+    "text": "when can i get the vaccine?",
+    "intent": "How_to_get_vaccine",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8324017524719238
+    }
+  },
+  {
+    "text": "when can i get janssen?",
+    "intent": "How_to_get_vaccine",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3432536721229553
+    }
+  },
+  {
+    "text": "i want to get the vaccine",
+    "intent": "How_to_get_vaccine",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.486249715089798
+    }
+  },
+  {
+    "text": "i want to get moderna",
+    "intent": "How_to_get_vaccine",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6828652620315552
+    }
+  },
+  {
+    "text": "i dont know how to get the vaccine",
+    "intent": "How_to_get_vaccine",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.858951210975647
+    }
+  },
+  {
+    "text": "i don't know where to get vaccine",
+    "intent": "How_to_get_vaccine",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9858941435813904
+    }
+  },
+  {
+    "text": "make appointment",
+    "intent": "How_to_get_vaccine",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9982724189758301
+    }
+  },
+  {
+    "text": "schedule appointment",
+    "intent": "How_to_get_vaccine",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9993698000907898
+    }
+  },
+  {
+    "text": "i want to make an appointment",
+    "intent": "How_to_get_vaccine",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8161830306053162
+    }
+  },
+  {
+    "text": "appointment",
+    "intent": "How_to_get_vaccine",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9998996257781982
+    }
+  },
+  {
+    "text": "Will getting the J & J vaccine cause me clots?",
+    "intent": "Janssen_blood_clots_women_under_50",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.474439799785614
+    }
+  },
+  {
+    "text": "blood clot",
+    "intent": "Janssen_blood_clots_women_under_50",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.645085334777832
+    }
+  },
+  {
+    "text": "i heard covid vaccine cause blood clots",
+    "intent": "Janssen_blood_clots_women_under_50",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4424965977668762
+    }
+  },
+  {
+    "text": "if my grandma is 74, can she take the janssen vaccine?",
+    "intent": "Janssen_blood_clots_women_under_50",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.41777560114860535
+    }
+  },
+  {
+    "text": "clots",
+    "intent": "Janssen_blood_clots_women_under_50",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9925079345703125
+    }
+  },
+  {
+    "text": "which provider should i get vaccine from?",
+    "intent": "Which_vaccine_to_choose",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9081386923789978
+    }
+  },
+  {
+    "text": "i don't know which vaccine to choose",
+    "intent": "Which_vaccine_to_choose",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9894433617591858
+    }
+  },
+  {
+    "text": "which vaccine is the best?",
+    "intent": "Which_vaccine_to_choose",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.3726905882358551
+    }
+  },
+  {
+    "text": "which vaccine is the best if I am a man",
+    "intent": "Which_vaccine_to_choose",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7157390713691711
+    }
+  },
+  {
+    "text": "Does the vaccine react poorly with any medications, or do the prescriptions I'm taking preclude me from being able to get a vaccine?",
+    "intent": "medication_vaccine",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6508117914199829
+    }
+  },
+  {
+    "text": "will taking blood thinner medication react to the vaccine?",
+    "intent": "medication_vaccine",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6025751829147339
+    }
+  },
+  {
+    "text": "what medicine I need not take after vaccine?",
+    "intent": "medication_vaccine",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6207581162452698
+    }
+  },
+  {
+    "text": "can I take my med after vaccination?",
+    "intent": "medication_vaccine",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.622485876083374
+    }
+  },
+  {
+    "text": "is there any medication i cannot take with the vaccine?",
+    "intent": "medication_vaccine",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.47494855523109436
+    }
+  },
+  {
+    "text": "i am pregnant, should I take the vaccine?",
+    "intent": "Pregnant",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9881836771965027
+    }
+  },
+  {
+    "text": "My aunt is pregnant, what are the risks?",
+    "intent": "Pregnant",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.42691925168037415
+    }
+  },
+  {
+    "text": "pregnant",
+    "intent": "Pregnant",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8482438325881958
+    }
+  },
+  {
+    "text": "im in my trimester of pregnancy, i dont know if it is worth it to get vaccinated",
+    "intent": "Pregnant",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.49691012501716614
+    }
+  },
+  {
+    "text": "i am pregnant, what are the risks if I get the pfizer vaccine?",
+    "intent": "Pregnant",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9787662029266357
+    }
+  },
+  {
+    "text": "i am breastfeeding, should I take the vaccine?",
+    "intent": "breastfeed",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9993473887443542
+    }
+  },
+  {
+    "text": "can breastfeeding women get vaccine?",
+    "intent": "breastfeed",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9879853129386902
+    }
+  },
+  {
+    "text": "my wife is feeding the baby with her milk, will the vaccine affect her or the baby?",
+    "intent": "breastfeed",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8803123235702515
+    }
+  },
+  {
+    "text": "Can parent-to-be receive a COVID-19 vaccine?",
+    "intent": "parent_to_be",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6048420667648315
+    }
+  },
+  {
+    "text": "i want to have children in the future, will the vaccine affect me or my children?",
+    "intent": "parent_to_be",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9432711005210876
+    }
+  },
+  {
+    "text": "i heard covid vaccine cause Down syndrome, is that true?",
+    "intent": "parent_to_be",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4466420114040375
+    }
+  },
+  {
+    "text": "will i still get covid after the shots?",
+    "intent": "How_long_vaccine_protection_last",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6009582877159119
+    }
+  },
+  {
+    "text": "do i need booster shot later in the future?",
+    "intent": "How_long_vaccine_protection_last",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8879353404045105
+    }
+  },
+  {
+    "text": "how long can the vaccine protect me from Corona?",
+    "intent": "How_long_vaccine_protection_last",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5815623998641968
+    }
+  },
+  {
+    "text": "do i need to social distancing after fully vaccinated?",
+    "intent": "Mask_and_social_distance_after_vaccination",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.26195845007896423
+    }
+  },
+  {
+    "text": "I dont have to wear mask anymore after I get the vaccine, correct?",
+    "intent": "Mask_and_social_distance_after_vaccination",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7029442191123962
+    }
+  },
+  {
+    "text": "I don't have to social distance after getting the vaccine",
+    "intent": "Mask_and_social_distance_after_vaccination",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9053667783737183
+    }
+  },
+  {
+    "text": "business cant make me wear mask after I take the vaccine",
+    "intent": "Mask_and_social_distance_after_vaccination",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5490953326225281
+    }
+  },
+  {
+    "text": "what is inside the janssen vaccine?",
+    "intent": "Vaccine_ingredients",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.44583648443222046
+    }
+  },
+  {
+    "text": "I want to know what is in covid-19 vaccine",
+    "intent": "Vaccine_ingredients",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.41326647996902466
+    }
+  },
+  {
+    "text": "is there any ingredient in the vaccine cause allergic reaction?",
+    "intent": "Vaccine_ingredients",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6521387100219727
+    }
+  },
+  {
+    "text": "vaccine ingredients list",
+    "intent": "Vaccine_ingredients",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9551275968551636
+    }
+  },
+  {
+    "text": "is protein in the vaccine?",
+    "intent": "Vaccine_ingredients",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.38640379905700684
+    }
+  },
+  {
+    "text": "what is inside the vaccine?",
+    "intent": "Vaccine_ingredients",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5547387003898621
+    }
+  },
+  {
+    "text": "how much is one shot of vaccine?",
+    "intent": "Vaccine_price",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6369742751121521
+    }
+  },
+  {
+    "text": "how much does it cost for a shot of vaccine?",
+    "intent": "Vaccine_price",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8878005743026733
+    }
+  },
+  {
+    "text": "how much is the moderna vaccines?",
+    "intent": "Vaccine_price",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9929947257041931
+    }
+  },
+  {
+    "text": "i have chronic lung disease , should i get the vaccine?",
+    "intent": "Underlying_conditions",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9459341764450073
+    }
+  },
+  {
+    "text": "i have underlying condition, can i still take the vaccine?",
+    "intent": "Underlying_conditions",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7483767867088318
+    }
+  },
+  {
+    "text": "i have HIV, will vaccine protect me against covid?",
+    "intent": "Underlying_conditions",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8759844899177551
+    }
+  },
+  {
+    "text": "will vaccine protect me against new covid-19 variants?",
+    "intent": "New_variants",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.42371317744255066
+    }
+  },
+  {
+    "text": "i heard there are new variants from india, is the pfizer vaccine still effective?",
+    "intent": "New_variants",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9485530853271484
+    }
+  },
+  {
+    "text": "does vaccine work for new UK corona strain?",
+    "intent": "New_variants",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7766103744506836
+    }
+  },
+  {
+    "text": "does the vaccine work for the new England covid variant or the Indian strain?",
+    "intent": "New_variants",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5498459935188293
+    }
+  },
+  {
+    "text": "what do i need to do before the vaccine?",
+    "intent": "What_to_expect_when_getting_the_vaccine",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9372258186340332
+    }
+  },
+  {
+    "text": "Do I need to bring anything to the vaccine appointment?",
+    "intent": "What_to_expect_when_getting_the_vaccine",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6763228178024292
+    }
+  },
+  {
+    "text": "I booked the appointment, now what?",
+    "intent": "What_to_expect_when_getting_the_vaccine",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5987237691879272
+    }
+  },
+  {
+    "text": "what i need to know before showing for the appointment?",
+    "intent": "What_to_expect_when_getting_the_vaccine",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.3777792751789093
+    }
+  },
+  {
+    "text": "what can i expect at the vaccination center?",
+    "intent": "What_to_expect_when_getting_the_vaccine",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6632400155067444
+    }
+  },
+  {
+    "text": "how does the vaccination process works?",
+    "intent": "What_to_expect_when_getting_the_vaccine",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6019771695137024
+    }
+  },
+  {
+    "text": "describe to me what will happen when I get there?",
+    "intent": "What_to_expect_when_getting_the_vaccine",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9410132169723511
+    }
+  },
+  {
+    "text": "i heard people die right after getting the vaccine?",
+    "intent": "Breakthrough_cases",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.509774923324585
+    }
+  },
+  {
+    "text": "i heard some people pass away after getting the moderna vaccine",
+    "intent": "Breakthrough_cases",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5368773937225342
+    }
+  },
+  {
+    "text": "how many people die because of the vaccine?",
+    "intent": "Breakthrough_cases",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.28718066215515137
+    }
+  },
+  {
+    "text": "can i die from getting the vaccine?",
+    "intent": "Breakthrough_cases",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8227264881134033
+    }
+  },
+  {
+    "text": "will i get illness or disease or paralysis from the vaccine?",
+    "intent": "Breakthrough_cases",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7235202789306641
+    }
+  },
+  {
+    "text": "what is the rate of pfizer?",
+    "intent": "rate_pfizer",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6430425047874451
+    }
+  },
+  {
+    "text": "how effective is pfizer",
+    "intent": "rate_pfizer",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9990197420120239
+    }
+  },
+  {
+    "text": "is it safe to take shot from pfizer?",
+    "intent": "rate_pfizer",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6333202719688416
+    }
+  },
+  {
+    "text": "what is the rate of moderna",
+    "intent": "rate_moderna",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6452131271362305
+    }
+  },
+  {
+    "text": "how credible is moderna?",
+    "intent": "rate_moderna",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6493973731994629
+    }
+  },
+  {
+    "text": "is it safe to take shot from moderna?",
+    "intent": "rate_moderna",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.41138800978660583
+    }
+  },
+  {
+    "text": "what is the rate of janssen?",
+    "intent": "rate_jj",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.91731196641922
+    }
+  },
+  {
+    "text": "how good is janssen?",
+    "intent": "rate_jj",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9290292263031006
+    }
+  },
+  {
+    "text": "is it safe to take shot from johnson johnson",
+    "intent": "rate_jj",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6463677287101746
+    }
+  },
+  {
+    "text": "how dangerous is covid 19?",
+    "intent": "covid_demographic",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7374976873397827
+    }
+  },
+  {
+    "text": "can black people get covid?",
+    "intent": "covid_demographic",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.718966007232666
+    }
+  },
+  {
+    "text": "covid mortality rate",
+    "intent": "covid_demographic",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4402320683002472
+    }
+  },
+  {
+    "text": "how many case of covid in the US?",
+    "intent": "covid_demographic",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9604542255401611
+    }
+  },
+  {
+    "text": "how many case of covid in my state?",
+    "intent": "covid_demographic",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5520536303520203
+    }
+  },
+  {
+    "text": "different race statistic",
+    "intent": "covid_demographic",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9842265248298645
+    }
+  },
+  {
+    "text": "different ethnicity statistic",
+    "intent": "covid_demographic",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.510373055934906
+    }
+  },
+  {
+    "text": "age group demographic",
+    "intent": "covid_demographic",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8888316750526428
+    }
+  },
+  {
+    "text": "how many dose for the pfizer vaccine do i need?",
+    "intent": "dose_pfizer",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8246111273765564
+    }
+  },
+  {
+    "text": "how long does it take for me to be immuted from covid 19 after pfizer?",
+    "intent": "dose_pfizer",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.2773561179637909
+    }
+  },
+  {
+    "text": "what is the time between pfizer shots?",
+    "intent": "dose_pfizer",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7890583872795105
+    }
+  },
+  {
+    "text": "how long i have to wait for the second pfizer dose?",
+    "intent": "dose_pfizer",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4277477562427521
+    }
+  },
+  {
+    "text": "how many dose for the moderna vaccine?",
+    "intent": "dose_moderna",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9698459506034851
+    }
+  },
+  {
+    "text": "how long does it take for me to fully vaccinated after moderna?",
+    "intent": "dose_moderna",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.353774756193161
+    }
+  },
+  {
+    "text": "what is the time between moderna's shots?",
+    "intent": "dose_moderna",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.964124321937561
+    }
+  },
+  {
+    "text": "how long i have to wait for the second dose for moderna?",
+    "intent": "dose_moderna",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.606270432472229
+    }
+  },
+  {
+    "text": "how many dose for the johnson johnson vaccine do i need?",
+    "intent": "dose_jj",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9848227500915527
+    }
+  },
+  {
+    "text": "how long does it take for me to be immuted from covid 19 after janssen?",
+    "intent": "dose_jj",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.33383095264434814
+    }
+  },
+  {
+    "text": "what is the time between johnson's shots?",
+    "intent": "dose_jj",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5057358145713806
+    }
+  },
+  {
+    "text": "do i need to do anything after the shot?",
+    "intent": "after_care",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9301260709762573
+    }
+  },
+  {
+    "text": "is there anything i need to know after been vaccinated?",
+    "intent": "after_care",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3783769905567169
+    }
+  },
+  {
+    "text": "what do i do after the vaccine?",
+    "intent": "after_care",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8485255837440491
+    }
+  },
+  {
+    "text": "what if i get allergic reaction after a few days?",
+    "intent": "after_care",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.41372328996658325
+    }
+  },
+  {
+    "text": "i got the shots, then what?",
+    "intent": "after_care",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.898307204246521
+    }
+  },
+  {
+    "text": "what are possible side effects?",
+    "intent": "after_care",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.754082441329956
+    }
+  },
+  {
+    "text": "will i lost my taste or smell after vaccination?",
+    "intent": "after_care",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8744472861289978
+    }
+  },
+  {
+    "text": "i have fever after the 2nd dose",
+    "intent": "after_care",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8592563271522522
+    }
+  },
+  {
+    "text": "side effects",
+    "intent": "after_care",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9945709109306335
+    }
+  },
+  {
+    "text": "do i need to take day off after been vaccinated?",
+    "intent": "after_care",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.796425998210907
+    }
+  },
+  {
+    "text": "good afternoon",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5720033049583435
+    }
+  },
+  {
+    "text": "yo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9898144006729126
+    }
+  },
+  {
+    "text": "sure",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8219360113143921
+    }
+  },
+  {
+    "text": "alright",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9988561272621155
+    }
+  },
+  {
+    "text": "pass",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9826098680496216
+    }
+  },
+  {
+    "text": "maybe",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7306199669837952
+    }
+  },
+  {
+    "text": "eh",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9989980459213257
+    }
+  },
+  {
+    "text": "i'll see",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9899200201034546
+    }
+  }
+]
