@@ -304,10 +304,8 @@ tensorboard==2.5.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.0
 tensorflow==2.3.3
-tensorflow-addons @ file:///Users/uyennguyen/Downloads/tensorflow_macos/x86_64/tensorflow_addons-0.11.2%2Bmlcompute-cp38-cp38-macosx_10_16_x86_64.whl
 tensorflow-estimator==2.3.0
 tensorflow-hub==0.10.0
-tensorflow-macos @ file:///Users/uyennguyen/Downloads/tensorflow_macos/x86_64/tensorflow_macos-0.1a0-cp38-cp38-macosx_10_16_x86_64.whl
 tensorflow-probability==0.11.1
 tensorflow-text==2.3.0
 termcolor==1.1.0
