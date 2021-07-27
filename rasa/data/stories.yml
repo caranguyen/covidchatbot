@@ -1,0 +1,452 @@
+version: "2.0"
+
+stories:
+
+# custom story for vaccine chatbot
+#checkpoint 4
+- story: Vaccine_ingredients_moderna
+  steps:
+    - intent: Vaccine_ingredients_moderna
+    - action: utter_vaccine_ingredients_moderna
+
+- story: Vaccine_ingredients_pfizer
+  steps:
+    - intent: Vaccine_ingredients_pfizer
+    - action: utter_vaccine_ingredients_pfizer
+
+- story: Vaccine_ingredients_janssen
+  steps:
+    - intent: Vaccine_ingredients_janssen
+    - action: utter_vaccine_ingredients_janssen
+
+- story: thanks
+  steps:
+  - intent: thanks
+  - action: utter_thanks
+
+
+#checkpoint 3
+
+- story: Which_vaccine_to_choose
+  steps:
+  - intent: Which_vaccine_to_choose
+  - action: utter_ask_female_between_18_and_49
+  - intent: affirm
+  - action: utter_female_between_18_and_49
+
+- story: Which_vaccine_to_choose
+  steps:
+  - intent: Which_vaccine_to_choose
+  - action: utter_ask_female_between_18_and_49
+  - intent: deny
+  - action: utter_ask_under_12
+  - intent: affirm
+  - action: utter_under_12
+
+- story: Which_vaccine_to_choose
+  steps:
+  - intent: Which_vaccine_to_choose
+  - action: utter_ask_female_between_18_and_49
+  - intent: deny
+  - action: utter_ask_under_12
+  - intent: deny
+  - action: utter_ask_between_12_and_18
+  - intent: affirm
+  - action: utter_between_12_and_18
+
+- story: Which_vaccine_to_choose
+  steps:
+  - intent: Which_vaccine_to_choose
+  - action: utter_ask_female_between_18_and_49
+  - intent: deny
+  - action: utter_ask_under_12
+  - intent: deny
+  - action: utter_ask_between_12_and_18
+  - intent: deny
+  - action: utter_ask_two_dose_commitment
+  - intent: deny
+  - action: utter_two_dose_commitment
+
+- story: Which_vaccine_to_choose
+  steps:
+  - intent: Which_vaccine_to_choose
+  - action: utter_ask_female_between_18_and_49
+  - intent: deny
+  - action: utter_ask_under_12
+  - intent: deny
+  - action: utter_ask_between_12_and_18
+  - intent: deny
+  - action: utter_ask_two_dose_commitment
+  - intent: affirm
+  - action: utter_any_vaccine_do
+
+- story: how_pfizer_vaccine_works
+  steps:
+  - intent: how_pfizer_vaccine_works
+  - action: utter_how_pfizer_vaccine_works
+
+- story: how_moderna_vaccine_works
+  steps:
+  - intent: how_moderna_vaccine_works
+  - action: utter_how_moderna_vaccine_works
+
+# checkpoint 2
+- story: DNA
+  steps:
+  - intent: DNA
+  - action: utter_DNA
+
+- story: Magnetic
+  steps:
+  - intent: Magnetic
+  - action: utter_Magnetic
+
+- story: Shedding
+  steps:
+  - intent: Shedding
+  - action: utter_Shedding
+
+- story: Mandate
+  steps:
+  - intent: Mandate
+  - action: utter_Mandate
+
+- story: Viral_test
+  steps:
+  - intent: Viral_test
+  - action: utter_Viral_test
+
+- story: Menstrual_cycle
+  steps:
+  - intent: Menstrual_cycle
+  - action: utter_Menstrual_cycle
+
+- story: Sick_with_covid
+  steps:
+  - intent: Sick_with_covid
+  - action: utter_Sick_with_covid
+
+- story: Call_if_no_internet_or_help_signing_up
+  steps:
+  - intent: Call_if_no_internet_or_help_signing_up
+  - action: utter_Call_if_no_internet_or_help_signing_up
+
+- story: V-safe
+  steps:
+  - intent: V-safe
+  - action: utter_V-safe
+
+- story: Childcare
+  steps:
+  - intent: Childcare
+  - action: utter_Childcare
+
+- story: Incentives_or_benefit
+  steps:
+  - intent: Incentives_or_benefit
+  - action: utter_Incentives_or_benefit
+
+- story: Over_75_year_old
+  steps:
+  - intent: Over_75_year_old
+  - action: utter_Over_75_year_old
+
+- story: Only_1_dose_out_of_2
+  steps:
+  - intent: Only_1_dose_out_of_2
+  - action: utter_Only_1_dose_out_of_2
+
+- story: Different_provider_for_each_dose
+  steps:
+  - intent: Different_provider_for_each_dose
+  - action: utter_Different_provider_for_each_dose
+
+- story: Muslim
+  steps:
+  - intent: Muslim
+  - action: utter_Muslim
+
+
+- story: Spread
+  steps:
+  - intent: Spread
+  - action: utter_Spread
+
+- story: Prevention
+  steps:
+  - intent: Prevention
+  - action: utter_Prevention
+
+- story: Treatment
+  steps:
+  - intent: Treatment
+  - action: utter_Treatment
+
+- story: Isolation
+  steps:
+  - intent: Isolation
+  - action: utter_Isolation
+
+- story: Emergency_signs
+  steps:
+  - intent: Emergency_signs
+  - action: utter_Emergency_signs
+
+- story: Testing
+  steps:
+  - intent: Testing
+  - action: utter_Testing
+
+- story: Face_covering
+  steps:
+  - intent: Face_covering
+  - action: utter_Face_covering
+
+- story: Higher_risk_of_severe_illness
+  steps:
+  - intent: Higher_risk_of_severe_illness
+  - action: utter_Higher_risk_of_severe_illness
+
+# - story: Social_distancing
+#   steps:
+#   - intent: Social_distancing
+#   - action: utter_Social_distancing
+
+# - story: Seasonal_allergies
+#   steps:
+#   - intent: Seasonal_allergies
+#   - action: utter_Seasonal_allergies
+
+# - story: Vape
+#   steps:
+#   - intent: Vape
+#   - action: utter_Vape
+
+# - story: Funeral
+#   steps:
+#   - intent: Funeral
+#   - action: utter_Funeral
+
+# - story: Cleaning_and_disinfection
+#   steps:
+#   - intent: Cleaning_and_disinfection
+#   - action: utter_Cleaning_and_disinfection
+
+- story: Pets_and_animals
+  steps:
+  - intent: Pets_and_animals
+  - action: utter_Pets_and_animals
+
+# - story: Food_and_water
+#   steps:
+#   - intent: Food_and_water
+#   - action: utter_Food_and_water
+
+# - story: Water_playground
+#   steps:
+#   - intent: Water_playground
+#   - action: utter_Water_playground
+
+
+# checkpoint 1
+- story: Already_had_covid
+  steps:
+    - intent: Already_had_covid
+    - action: utter_Already_had_covid
+
+- story: Safe_for_Children
+  steps:
+    - intent: Safe_for_Children
+    - action: utter_Safe_for_Children
+      
+- story: Why_get_vaccine
+  steps:
+    - intent: Why_get_vaccine
+    - action: utter_Why_get_vaccine
+      
+- story: Janssen_blood_clots_women_under_50
+  steps:
+    - intent: Janssen_blood_clots_women_under_50
+    - action: utter_Janssen_blood_clots_women_under_50
+      
+- story: medication_vaccine
+  steps:
+    - intent: medication_vaccine
+    - action: utter_medication_vaccine
+      
+- story: Pregnant
+  steps:
+    - intent: Pregnant
+    - action: utter_Pregnant
+      
+- story: breastfeed
+  steps:
+    - intent: breastfeed
+    - action: utter_breastfeed
+      
+- story: parent_to_be
+  steps:
+    - intent: parent_to_be
+    - action: utter_parent_to_be
+      
+- story: How_long_vaccine_protection_last
+  steps:
+    - intent: How_long_vaccine_protection_last
+    - action: utter_How_long_vaccine_protection_last
+
+- story: Mask_and_social_distance_after_vaccination
+  steps:
+    - intent: Mask_and_social_distance_after_vaccination
+    - action: utter_Mask_and_social_distance_after_vaccination
+      
+- story: Vaccine_ingredients
+  steps:
+    - intent: Vaccine_ingredients
+    - action: utter_vaccine_ingredients
+
+- story: Vaccine_price
+  steps:
+    - intent: Vaccine_price
+    - action: utter_Vaccine_price
+      
+- story: Underlying_conditions
+  steps:
+    - intent: Underlying_conditions
+    - action: utter_Underlying_conditions
+      
+- story: New_variants
+  steps:
+    - intent: New_variants
+    - action: utter_New_variants
+      
+- story: What_to_expect_when_getting_the_vaccine
+  steps:
+    - intent: What_to_expect_when_getting_the_vaccine
+    - action: utter_What_to_expect_when_getting_the_vaccine
+      
+- story: Breakthrough_cases
+  steps:
+    - intent: Breakthrough_cases
+    - action: utter_Breakthrough_cases
+# end of checkpoint 1
+
+- story: How_to_get_vaccine
+  steps:
+    - intent: How_to_get_vaccine
+    - action: utter_How_to_get_vaccine
+
+- story: pfizer rate
+  steps:
+  - intent: rate_pfizer
+  - action: utter_rate_pfizer
+
+- story: moderna rate
+  steps:
+  - intent: rate_moderna
+  - action: utter_rate_moderna
+
+- story: johnson johnson rate
+  steps:
+  - intent: rate_jj
+  - action: utter_rate_jj
+
+- story: covid_demographic
+  steps:
+  - intent: covid_demographic
+  - action: utter_covid_demographic
+
+- story: should_not_vaccine
+  steps:
+  - intent: should_not_vaccine
+  - action: utter_should_not_vaccine
+
+- story: dose_pfizer 
+  steps:
+  - intent: dose_pfizer
+  - action: utter_dose_pfizer
+
+- story: dose_moderna
+  steps:
+  - intent: dose_moderna
+  - action: utter_dose_moderna
+
+- story: dose_jj
+  steps:
+  - intent: dose_jj
+  - action: utter_dose_jj
+
+- story: after_care
+  steps:
+  - intent: after_care
+  - action: utter_after_care
+
+- story: interactive_story_2
+  steps:
+  - intent: Call_if_no_internet_or_help_signing_up
+  - action: utter_Call_if_no_internet_or_help_signing_up
+  - intent: Which_vaccine_to_choose
+  - action: utter_ask_female_between_18_and_49
+  - intent: deny
+  - action: utter_ask_under_12
+  - intent: deny
+  - action: utter_ask_between_12_and_18
+  - intent: deny
+  - action: utter_ask_two_dose_commitment
+  - intent: affirm
+  - action: utter_any_vaccine_do
+  - intent: Already_had_covid
+  - action: utter_Already_had_covid
+  - intent: Safe_for_Children
+  - action: utter_Safe_for_Children
+  - intent: Over_75_year_old
+  - action: utter_Over_75_year_old
+  - intent: Over_75_year_old
+  - action: utter_Over_75_year_old
+  - intent: Vaccine_price
+  - action: utter_Vaccine_price
+  - intent: Vaccine_price
+  - action: utter_Vaccine_price
+  - intent: New_variants
+  - action: utter_New_variants
+  - intent: Janssen_blood_clots_women_under_50
+  - action: utter_Janssen_blood_clots_women_under_50
+  - intent: New_variants
+  - action: utter_New_variants
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - intent: Vaccine_ingredients
+  - action: utter_vaccine_ingredients
+  - intent: Vaccine_ingredients
+    entities:
+    - provider: janssen
+  - action: utter_vaccine_ingredients_janssen
+  - intent: Vaccine_ingredients_janssen
+    entities:
+    - provider: janssen
+  - action: utter_vaccine_ingredients_janssen
+  - intent: Vaccine_ingredients_moderna
+    entities:
+    - provider: moderna
+  - action: utter_vaccine_ingredients_moderna
+  - intent: Vaccine_ingredients_pfizer
+    entities:
+    - provider: pfizer
+  - action: utter_vaccine_ingredients_pfizer
+  - intent: Muslim
+  - action: utter_Muslim
+  - intent: greet
+  - action: utter_greet
+  - intent: greet
+  - action: utter_greet
+  - intent: greet
+  - action: utter_greet
+  - intent: out_of_scope
+    entities:
+    - out_of_scope: book
+  - action: utter_out_of_scope
+  - intent: Why_get_vaccine
+  - action: utter_Why_get_vaccine
+  - intent: Incentives_or_benefit
+  - action: utter_Incentives_or_benefit
+  - intent: How_to_get_vaccine
+  - action: utter_How_to_get_vaccine

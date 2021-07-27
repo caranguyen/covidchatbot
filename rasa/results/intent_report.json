@@ -1,0 +1,673 @@
+{
+  "rate_pfizer": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "affirm": 1,
+      "mood_unhappy": 1,
+      "mood_great": 1
+    }
+  },
+  "Isolation": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "deny": 2,
+      "bot_challenge": 1
+    }
+  },
+  "DNA": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "goodbye": 2,
+      "deny": 1,
+      "mood_unhappy": 1
+    }
+  },
+  "Pets_and_animals": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "mood_unhappy": 3,
+      "bot_challenge": 1
+    }
+  },
+  "Already_had_covid": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "goodbye": 4,
+      "mood_great": 2,
+      "mood_unhappy": 1
+    }
+  },
+  "Incentives_or_benefit": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "bot_challenge": 1,
+      "greet": 1,
+      "affirm": 1
+    }
+  },
+  "Different_provider_for_each_dose": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "bot_challenge": 1,
+      "mood_unhappy": 1,
+      "mood_great": 1
+    }
+  },
+  "Magnetic": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "goodbye": 2,
+      "bot_challenge": 1,
+      "greet": 1
+    }
+  },
+  "Testing": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "goodbye": 2,
+      "bot_challenge": 1,
+      "mood_unhappy": 1
+    }
+  },
+  "Vaccine_price": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "affirm": 2,
+      "greet": 1
+    }
+  },
+  "dose_moderna": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "greet": 4
+    }
+  },
+  "how_moderna_vaccine_works": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "greet": 3
+    }
+  },
+  "Underlying_conditions": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "goodbye": 3
+    }
+  },
+  "thanks": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "deny": 2,
+      "greet": 1,
+      "mood_unhappy": 1
+    }
+  },
+  "Vaccine_ingredients": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "greet": 2,
+      "bot_challenge": 1,
+      "deny": 1
+    }
+  },
+  "How_to_get_vaccine": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 14,
+    "confused_with": {
+      "mood_unhappy": 5,
+      "greet": 5,
+      "deny": 3
+    }
+  },
+  "out_of_scope": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 14,
+    "confused_with": {
+      "deny": 5,
+      "greet": 3,
+      "mood_great": 2
+    }
+  },
+  "Shedding": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "affirm": 1,
+      "mood_unhappy": 1,
+      "greet": 1
+    }
+  },
+  "Muslim": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "affirm": 2,
+      "mood_great": 2
+    }
+  },
+  "how_pfizer_vaccine_works": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "mood_great": 2,
+      "deny": 1
+    }
+  },
+  "Only_1_dose_out_of_2": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "bot_challenge": 2,
+      "deny": 1
+    }
+  },
+  "Which_vaccine_to_choose": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "bot_challenge": 1,
+      "deny": 1,
+      "mood_great": 1
+    }
+  },
+  "breastfeed": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "mood_great": 3
+    }
+  },
+  "covid_demographic": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {
+      "mood_great": 3,
+      "affirm": 2,
+      "greet": 1
+    }
+  },
+  "Why_get_vaccine": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "deny": 3,
+      "affirm": 1,
+      "mood_unhappy": 1
+    }
+  },
+  "Mask_and_social_distance_after_vaccination": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "deny": 1,
+      "affirm": 1,
+      "goodbye": 1
+    }
+  },
+  "affirm": {
+    "precision": 0.28125,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.41860465116279066,
+    "support": 11,
+    "confused_with": {
+      "mood_unhappy": 1,
+      "goodbye": 1
+    }
+  },
+  "Vaccine_ingredients_janssen": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "deny": 2,
+      "mood_great": 1
+    }
+  },
+  "How_long_vaccine_protection_last": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "goodbye": 1,
+      "mood_great": 1,
+      "greet": 1
+    }
+  },
+  "Sick_with_covid": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "goodbye": 3
+    }
+  },
+  "Safe_for_Children": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "mood_unhappy": 2,
+      "bot_challenge": 1,
+      "mood_great": 1
+    }
+  },
+  "Call_if_no_internet_or_help_signing_up": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "deny": 3,
+      "mood_unhappy": 2
+    }
+  },
+  "dose_jj": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "deny": 2,
+      "goodbye": 1
+    }
+  },
+  "Mandate": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "goodbye": 3,
+      "bot_challenge": 2,
+      "greet": 1
+    }
+  },
+  "Menstrual_cycle": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "mood_great": 3,
+      "mood_unhappy": 1,
+      "goodbye": 1
+    }
+  },
+  "Spread": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "mood_unhappy": 4,
+      "mood_great": 2,
+      "goodbye": 1
+    }
+  },
+  "after_care": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 10,
+    "confused_with": {
+      "deny": 3,
+      "goodbye": 3,
+      "mood_great": 2
+    }
+  },
+  "deny": {
+    "precision": 0.19642857142857142,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.30985915492957744,
+    "support": 15,
+    "confused_with": {
+      "goodbye": 2,
+      "mood_unhappy": 1
+    }
+  },
+  "V-safe": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "mood_great": 3,
+      "mood_unhappy": 2
+    }
+  },
+  "dose_pfizer": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "goodbye": 2,
+      "deny": 1,
+      "mood_great": 1
+    }
+  },
+  "Over_75_year_old": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "mood_great": 3,
+      "bot_challenge": 1
+    }
+  },
+  "Janssen_blood_clots_women_under_50": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "mood_unhappy": 2,
+      "affirm": 1,
+      "mood_great": 1
+    }
+  },
+  "Prevention": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "mood_great": 2,
+      "greet": 1,
+      "deny": 1
+    }
+  },
+  "rate_moderna": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "mood_unhappy": 2,
+      "affirm": 1
+    }
+  },
+  "greet": {
+    "precision": 0.2222222222222222,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.35294117647058826,
+    "support": 14,
+    "confused_with": {
+      "affirm": 1,
+      "goodbye": 1
+    }
+  },
+  "Vaccine_ingredients_pfizer": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "mood_great": 2
+    }
+  },
+  "Face_covering": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "deny": 2,
+      "mood_unhappy": 2,
+      "mood_great": 1
+    }
+  },
+  "children": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "mood_unhappy": 3,
+      "affirm": 1,
+      "goodbye": 1
+    }
+  },
+  "Breakthrough_cases": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "mood_great": 2,
+      "greet": 2,
+      "mood_unhappy": 1
+    }
+  },
+  "Emergency_signs": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "affirm": 1,
+      "mood_great": 1,
+      "greet": 1
+    }
+  },
+  "goodbye": {
+    "precision": 0.21153846153846154,
+    "recall": 1.0,
+    "f1-score": 0.34920634920634924,
+    "support": 11,
+    "confused_with": {}
+  },
+  "medication_vaccine": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "deny": 2,
+      "mood_great": 1,
+      "goodbye": 1
+    }
+  },
+  "bot_challenge": {
+    "precision": 0.16,
+    "recall": 1.0,
+    "f1-score": 0.2758620689655173,
+    "support": 4,
+    "confused_with": {}
+  },
+  "rate_jj": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "mood_unhappy": 2,
+      "affirm": 1
+    }
+  },
+  "Childcare": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "greet": 3,
+      "mood_unhappy": 1
+    }
+  },
+  "parent_to_be": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "deny": 1,
+      "bot_challenge": 1,
+      "mood_great": 1
+    }
+  },
+  "What_to_expect_when_getting_the_vaccine": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "mood_great": 3,
+      "greet": 1,
+      "deny": 1
+    }
+  },
+  "Higher_risk_of_severe_illness": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "affirm": 2,
+      "mood_unhappy": 2,
+      "deny": 1
+    }
+  },
+  "Vaccine_ingredients_moderna": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "greet": 2
+    }
+  },
+  "Treatment": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "deny": 2,
+      "mood_great": 1,
+      "greet": 1
+    }
+  },
+  "New_variants": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "mood_great": 3,
+      "deny": 1
+    }
+  },
+  "Pregnant": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "mood_great": 2,
+      "deny": 1,
+      "bot_challenge": 1
+    }
+  },
+  "Viral_test": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "bot_challenge": 1,
+      "deny": 1,
+      "affirm": 1
+    }
+  },
+  "micro avg": {
+    "precision": 0.2146118721461187,
+    "recall": 0.14329268292682926,
+    "f1-score": 0.17184643510054845,
+    "support": 328
+  },
+  "macro avg": {
+    "precision": 0.017006972304591354,
+    "recall": 0.06997869855012712,
+    "f1-score": 0.027086879376743218,
+    "support": 328
+  },
+  "weighted avg": {
+    "precision": 0.03694577060811817,
+    "recall": 0.14329268292682926,
+    "f1-score": 0.058348881324556415,
+    "support": 328
+  }
+}

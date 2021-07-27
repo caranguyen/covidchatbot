@@ -1,255 +1,33 @@
 version: "2.0"
-entities: 
-- provider
-- covid
-- janssen
-- grandmother
-- grandfather
-- male
-- female
-- vaccine
-- medication
-- underlying_condition
-- gender
-- dose
-- family
-- out_of_scope
-- incentive
-intents: 
-- children
-- out_of_scope
-- how_pfizer_vaccine_works
-- how_moderna_vaccine_works
-- DNA
-- Magnetic
-- Shedding
-- Mandate
-- Viral_test
-- Menstrual_cycle
-- Sick_with_covid
-- Call_if_no_internet_or_help_signing_up
-- V-safe
-- Childcare
-- Incentives_or_benefit
-- Over_75_year_old
-- Only_1_dose_out_of_2
-- Different_provider_for_each_dose
-- Muslim
-- Spread
-- Prevention
-- Treatment
-- Isolation
-- Emergency_signs
-- Testing
-- Face_covering
-- Higher_risk_of_severe_illness
-- Pets_and_animals
-- medication_vaccine
-- Underlying_conditions
-- greet
-- goodbye
-- affirm
-- deny
-- bot_challenge
-- rate_pfizer
-- rate_moderna
-- rate_jj
-- covid_demographic
-- should_not_vaccine
-- dose_pfizer
-- dose_moderna
-- dose_jj
-- after_care
-- How_to_get_vaccine
-- Already_had_covid
-- Janssen_blood_clots_women_under_50
-- Why_get_vaccine
-- Safe_for_Children
-- Pregnant
-- breastfeed
-- parent_to_be
-- How_long_vaccine_protection_last
-- Mask_and_social_distance_after_vaccination
-- Vaccine_ingredients
-- Vaccine_price
-- New_variants
-- What_to_expect_when_getting_the_vaccine
-- Breakthrough_cases
-- Vaccine_ingredients_moderna
-- Vaccine_ingredients_pfizer
-- Vaccine_ingredients_janssen
-- thanks
-- Which_vaccine_to_choose
-- mood_great
-- mood_unhappy
-responses: 
-  utter_Already_had_covid: 
-  - text: "You should be vaccinated regardless of whether you already had COVID-19. That’s because experts do not yet know how long you are protected from getting sick again after recovering from COVID-19. Even if you have already recovered from COVID-19, it is possible—although rare—that you could be infected with the virus that causes COVID-19 again. Studies have shown that vaccination provides a strong boost in protection in people who have recovered from COVID-19. If you were treated for COVID-19 with monoclonal antibodies or convalescent plasma, you should wait 90 days before getting a COVID-19 vaccine."
-  utter_Breakthrough_cases: 
-  - text: "CDC are monitoring breakthrough cases and conducting studies about COVID-19 vaccines effectiveness at the moment."
-  utter_Call_if_no_internet_or_help_signing_up: 
-  - text: "Call 1-800-232-0233, which is available in English, Spanish, 150 other languages, and has service to support hearing-impaired callers"
-  utter_Childcare: 
-  - text: "Free child care are offered for parents and caregivers during vaccination appointments. Visit [this link](https://www.vaccines.gov/incentives.html) for details."
-  utter_DNA: 
-  - text: "COVID-19 vaccines do not change or interact with your DNA in any way."
-  utter_Different_provider_for_each_dose: 
-  - text: "DO NOT change vaccine on your second dose. Refer to your vaccination card to find the type of vaccine from your first dose."
-  utter_Emergency_signs: 
-  - text: " For 3 weeks after receiving the vaccine, you should be on the lookout for possible symptoms. These include- Severe or persistent headaches or blurred visio- Shortness of breat- Chest pai- Leg swellin- Persistent abdominal pai- Easy bruising or tiny blood spots under the skin beyond the injection sit- New confusio- Inability to wake or stay awak- Bluish lips or face Seek medical care right away if you develop one or more of these symptoms."
-  utter_Face_covering: 
-  - text: "It's a good practice to wear mask while in public."
-    image: "https://texasceal.org/wp-content/uploads/2020/12/How-toTake-Off-Mask-1.jpg"
-  utter_Higher_risk_of_severe_illness: 
-  - text: "if you are in the group with higher risk of severe illness from COVID-19, get vaccine as soon as it is availble to prevent getting infected."
-    image: "https://texasceal.org/wp-content/uploads/2020/12/What-You-Can-Do-if-You-are-at-Higher-Risk-of-Severe-Illness-from-COVID-19.jpg"
-  utter_How_long_vaccine_protection_last: 
-  - text: "We are also still learning how long COVID-19 vaccines protect people."
-  utter_How_to_get_vaccine: 
-  - text: "Visit [Vaccine.gov](https://www.vaccines.gov/search/) to locate vaccine providers near you or Call 1-800-232-0233, which is available in English, Spanish, 150 other languages, and has service to support hearing-impaired callers"
-  utter_Incentives_or_benefit: 
-  - text: "Companies across the United States are offering rewards to their vaccinated customers and employees. Visit https://www.vaccines.gov/incentives.html for details."
-  utter_Isolation: 
-  - text: "infographic explains Quarantine vs Isolation. Apply according to your case:"
-    image: "https://texasceal.org/wp-content/uploads/2020/12/COVID-19-quarantine-vs-isolation.jpg"
-  utter_Janssen_blood_clots_women_under_50: 
-  - text: "women younger than 50 years old especially should be aware of the rare but increased risk of thrombosis with thrombocytopenia syndrome (TTS). TTS is a serious condition that involves blood clots with low platelets. There are other COVID-19 vaccine options available for which this risk has not been seen."
-  utter_Magnetic: 
-  - text: "Receiving a COVID-19 vaccine will not make you magnetic, including at the site of vaccination which is usually your arm."
-  utter_Mandate: 
-  - text: "The federal government does not require vaccination for people. Additionally, CDC does not maintain or monitor a person’s vaccination records. Whether a state or local government or employer can require or mandate COVID-19 vaccination is a matter of state or other applicable law external."
-  utter_Mask_and_social_distance_after_vaccination: 
-  - text: " 1.  Indoor and outdoor activities pose minimal risk to fully vaccinated people. 2.  Fully vaccinated people have a reduced risk of transmitting SARS-CoV-2 to unvaccinated people. 3.  Fully vaccinated people should still get tested if experiencing COVID-19 symptoms. 4.  Fully vaccinated people should not visit private or public settings if they have tested positive for COVID-19 in the prior 10 days or are experiencing COVID-19 symptoms. 5.  Fully vaccinated people should continue to follow any applicable federal, state, local, tribal, or territorial laws, rules, and regulations."
-  utter_Menstrual_cycle: 
-  - text: "Your menstrual cycle cannot be affected by being near someone who received a COVID-19 vaccine. Many things can affect menstrual cycles, including stress, changes in your schedule, problems with sleep, and changes in diet or exercise. Infections may also affect menstrual cycles."
-  utter_Muslim: 
-  - text: "None of the vaccines contain eggs, gelatin, latex, preservative, or vitamin issues."
-  utter_New_variants: 
-  - text: "FDA said the authorized vaccines remain effective in protecting the American public against currently circulating strains of COVID-19."
-  utter_Only_1_dose_out_of_2: 
-  - text: "Two doses provide maximum protection. If you only want one dose, please consider Johnson Johnson vaccine for higher protection."
-    image: "https://texasceal.org/wp-content/uploads/2021/02/mRNA-Vaccines-Infographic-How-Do-They-Work.jpg"
-  utter_Over_75_year_old: 
-  - text: "You are in the group with higher risk of severe illness from COVID-19, get vaccine as soon as it is availble to prevent getting infected. Texas launched the COVID-19 “Save Our Seniors Initiative” to identify and vaccinate Texans who are 75+ or are homebound. To register, contact your Local County Judge or Local Office for Emergency Management to let them know you want to sign up."
-  utter_Pets_and_animals: 
-  - text: "The risk of pets spreading the virus that causes COVID-19 in people is considered to be low. A small number of pets became sick after having close contact with a person with COVID-19. Treat pets as you would human family members to protect them from a possible infection."
-  utter_Pregnant: 
-  - text: |-
-          If you are facing a decision about whether to receive a COVID-19 vaccine while pregnant, consider- Your risk of exposure to COVID-19 = How likely you are to being exposed to the viru- The risks of severe illness = pregnant and recently pregnant people are at an increased risk for severe illness from COVID-1- The known benefits of vaccination = Risks of COVID-19 to you and the potential risks to your infant vs Benefits of vaccin- The limited but growing evidence about the safety of vaccinations during pregnancy
-          If you would like to speak to someone about COVID-19 vaccination during pregnancy, ask your health provider or contact free and confidential service MotherToBaby at 1-866-626-6847.
-  utter_Prevention: 
-  - text: "infographic below explains COVID-19 prevention:"
-    image: "https://texasceal.org/wp-content/uploads/2020/12/How-to-Protect-Yourself-and-Others_Page_1.jpg"
-  utter_Safe_for_Children: 
-  - text: "Studies show that COVID-19 vaccines are safe and effective. Getting your child vaccinated helps to protect your child and your family. Getting a COVID-19 vaccine once it is available to you represents one step that you can take to get the Texas economy, and our day-to-day lives, back to normal. Currently, the Pfizer-BioNTech COVID-19 Vaccine is the only one available to children 12 years and older."
-  utter_Shedding: 
-  - text: "None of the vaccines authorized for use in the United States contain a live virus. Vaccine components are not shed by COVID-19 vaccines, so it is not possible for the any of the vaccine components to accumulate in the body’s tissue or organs."
-  utter_Sick_with_covid: 
-  - text: "None of the authorized and recommended COVID-19 vaccines or COVID-19 vaccines currently in development in the United States contain the live virus that causes COVID-19. This means that a COVID-19 vaccine cannot make you sick with COVID-19."
-    image: "https://texasceal.org/wp-content/uploads/2021/02/mRNA-Vaccines-Infographic-Are-They-Safe-1.jpg"
-  utter_Spread: 
-  - text: "COVID-19 is thought to spread mainly through close contact from person to person, including between people who are physically near each other (within about 6 feet). Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected."
-  utter_Testing: 
-  - text: "CDC recommends that anyone with any signs or symptoms of COVID-19 get tested, regardless of vaccination status or prior infection. Contact your local pharmacy or doctor for tests."
-  utter_Treatment: 
-  - text: "Veklury is the only drug used for COVID-19 treatment, and only be administered in a hospital. Be wary of any product on the market claims to cure COVID-19."
-  utter_Underlying_conditions: 
-  - text: "COVID-19 vaccines are recommended for most people with underlying medical conditions. If you have a condition or are taking medications that weaken your immune system, you may NOT be fully protected even if you are fully vaccinated. People with underlying medical conditions can receive a COVID-19 vaccine as long as they have not had an immediate or severe allergic reaction to a COVID-19 vaccine or to any of the ingredients in the vaccine."
-  utter_V-safe: 
-  - text: "V-safe is a smartphone-based tool that uses text messaging and web surveys to provide personalized health check-ins after you receive a COVID-19 vaccine. Visit vsafe.cdc.gov to sign up."
-  utter_Vaccine_price: 
-  - text: "The US government is providing the COVID-19 vaccine free of charge to all people living in the United States, regardless of their immigration or health insurance status. "
-  utter_Viral_test: 
-  - text: "None of the authorized and recommended COVID-19 vaccines cause you to test positive on viral tests, which are used to see if you have a current infection."
-  utter_What_to_expect_when_getting_the_vaccine: 
-  - text: " 1.  Before you arrive, contact the site where you will be vaccinated or review your appointment confirmation email for details. 2.  When you get a vaccine, you and your healthcare provider will both need to wear masks that cover your nose and mouth. 3.  You should receive a paper or electronic version of a fact sheet that tells you more about the specific COVID-19 vaccine you receive. 4.  After getting a COVID-19 vaccine, you should be monitored on site for at least 15 minutes. 5.  You should get a vaccination card that tells you what COVID-19 vaccine you received"
-  utter_Why_get_vaccine: 
-  - text: "Vaccine is the safest way to protect you and your loved ones from COVID-19."
-    image: "https://texasceal.org/wp-content/uploads/2021/02/mRNA-Vaccines-Infographic-What-Are-The-Benefits.jpg"
-  utter_after_care: 
-  - text: "You might experience common side effects: pain and redness at the injection site, as well as tiredness, headache, muscle pain, chills, fever, and nausea throughout the rest of the body. These are normal signs that your body is building protection. If you're pregnant, take Tylenol for fever. Call primary doctor if side effects worsen or remain after few days. If it's an emergency, call 911."
-  utter_any_vaccine_do: 
-  - text: "CDC do not recommend one vaccine over the other. You can get any availabe vaccines: Pfizer, Moderna, and Janssen."
-  utter_ask_between_12_and_18: 
-  - text: "Are you between ages 12 and 18 years old?"
-  utter_ask_continue: 
-  - text: "Sorry, I don't quite understand. Do you want to continue?"
-  utter_ask_female_between_18_and_49: 
-  - text: "Are you a female between ages 18 and 49 years old?"
-  utter_ask_two_dose_commitment: 
-  - text: "Will you be able to commit to take 2 doses of vaccine?"
-  utter_ask_under_12: 
-  - text: "Are you under 12 years old?"
-  utter_between_12_and_18: 
-  - text: "CDC do not recommend one vaccine over the other. Currently, Pfizer vaccine is the only available vaccine had people over 12 years old in its clinical trial with 95 percent effective."
-  utter_breastfeed: 
-  - text: "lactating people can receive a COVID-19 vaccine. Clinical trials for the COVID-19 vaccines currently authorized for use in the United States did not include people who are breastfeeding. there are no data available on the: Safety of COVID-19 vaccines in breastfeeding people, Effects of vaccination on the breastfed baby, Effects on milk production or excretion. Based on how these vaccines work in the body, COVID-19 vaccines are thought not to be a risk to lactating people or their breastfeeding babies."
-  utter_covid_demographic: 
-  - text: "half of american from all races has contracted covid-19, and x number of people have died due to covid-19..."
-  utter_default: 
-  - text: "Sorry I didn't get that. Can you rephrase?"
-  utter_dose_jj: 
-  - text: "1 shot. You are fully vaccined 2 weeks after the shot."
-  utter_dose_moderna: 
-  - text: "2 shots given 4 weeks apart. You are fully vaccined 2 weeks after the second dose."
-  utter_dose_pfizer: 
-  - text: "2 shots given 3 weeks apart. You are fully vaccined 2 weeks after the second dose."
-  utter_female_between_18_and_49: 
-  - text: "CDC do not recommend one vaccine over the other. But CDD advices precausion to female between 18 and 49 before getting Janssen vaccine due to posible blood clots. Pfizer and Moderna vaccine are available alternatives."
-  utter_goodbye: 
-  - text: Bye
-  utter_greet: 
-  - text: "Hey! Got a question? Ask away!"
-  utter_how_moderna_vaccine_works: 
-  - text: "the infographic below explain how moderna vaccine works"
-    image: "https://texasceal.org/wp-content/uploads/2021/04/COVID-19_Vaccine_Moderna_English-scaled.jpg"
-  utter_how_pfizer_vaccine_works: 
-  - text: "the infographic below explain how pfizer vaccine works"
-    image: "https://texasceal.org/wp-content/uploads/2021/04/COVID-19_Vaccine_Pfizer_English-scaled.jpg"
-  utter_iamabot: 
-  - text: "I am a bot, powered by Rasa."
-  utter_medication_vaccine: 
-  - text: "You will need to check with your healthcare provider about whether your medication will interfere with being vaccinated."
-  utter_out_of_scope: 
-  - text: "The request is out of my scope of knowledge. I can only help with questions about COVID-19 and COVID-19 vaccine. Below are some examples. Feel free to ask another question!"
-  utter_parent_to_be: 
-  - text: "There is currently no evidence that any vaccines, including COVID-19 vaccines, cause female or male fertility problems—problems getting pregnant. Like with all vaccines, scientists are studying COVID-19 vaccines carefully for side effects now and will report findings as they become available."
-  utter_please_rephrase: 
-  - text: "I'm sorry, I didn't quite understand that. Could you rephrase?"
-  utter_rate_jj: 
-  - text: "66.3% effective rate for people 18 years and older"
-  utter_rate_moderna: 
-  - text: "94.1% effective rate for people 18 years and older"
-  utter_rate_pfizer: 
-  - text: "95% effective rate for people 12 years and older"
-  utter_should_not_vaccine: 
-  - text: " if you are allergic to any ingredient in the vaccine such as PED, which is found in some medications, such as laxatives and preparations for colonoscopy procedures or Polysorbate, which is found in some vaccines, film coated tablets, and intravenous steroids If you or your child has a history of multisystem inflammatory syndrome(MIS-A or MIS-C), consider delaying vaccination until you or your child have recovered from being sick and for 90 days after the date of diagnosis."
-  utter_thanks: 
-  - text: "You're very welcome. I am happy to help with any other question you have about COVID-19 vaccine!"
-  utter_two_dose_commitment: 
-  - text: "CDC do not recommend one vaccine over the other. For 1 dose only, Janssen has the highest effective rate among 3 major vaccines with 66 percent."
-  utter_under_12: 
-  - text: "CDC do not recommend one vaccine over the other. Currently, the available vaccines did not include clinical trials on people under the age of 12. Please contact your primary healthcare provider for more consults."
-  utter_vaccine_ingredients: 
-  - text: "There are serveral components inside each brand vaccine. If you wish to see the full list, type the brand of vaccine you want to look at the ingredients. For example, Janssen vaccince ingredients"
-  utter_vaccine_ingredients_janssen: 
-  - text: "-   Polysorbate, which is found in some vaccines, film coated tablets, and intravenous steroid-   Viral Vecto-   HBC-   Citric acid monohydrat-   Trisodium citrate dihydrat-   Sodium chlorid-   Ethanol *None of the vaccines contain eggs, gelatin, latex, or preservatives."
-  utter_vaccine_ingredients_moderna: 
-  - text: "-   Polyethylene glycol (PEG), which is found in some medications, such as laxatives and preparations for colonoscopy procedure-   Nucleoside-modified mRNA encoding the viral spike (S) glycoprotein of SARS-CoV--   2-distearoyl-sn-glycero-3-phosphocholin-   Cholestero-   SM-10-   Tromethamin-   Tromethamine hydrochlorid-   Acetic aci-   Sodium acetat-   Sucrose *None of the vaccines contain eggs, gelatin, latex, or preservatives."
-  utter_vaccine_ingredients_pfizer: 
-  - text: "-   Polyethylene glycol (PEG), which is found in some medications, such as laxatives and preparations for colonoscopy procedure-   Nucleoside-modified mRNA encoding the viral spike (S) glycoprotein of SARS-CoV--   2-distearoyl-sn-glycero-3-phosphocholin-   Cholestero-   (4-hydroxybutyl)azanediyl)bis(hexane6,1-diyl)bis(2-hexyldecanoate-   Sodium chlorid-   Monobasic potassium phosphat-   Potassium chlorid-   Dibasic sodium phosphate dihydrat-   Sucrose *None of the vaccines contain eggs, gelatin, latex, or preservatives."
-  utter_welcome: 
-  - text: "Hi there! What can I help you with today?"
 
-  utter_cheer_text: 
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
-  utter_did_that_hetext: 
+  utter_did_that_help:
   - text: "Did that help you?"
 
-  utter_haptext: 
+  utter_happy:
   - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
 
 session_config:
   session_expiration_time: 60
